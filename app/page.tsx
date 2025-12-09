@@ -3,6 +3,7 @@ import {
   CompanionJourney,
   Features,
   Hero,
+  VetFinder,
 } from "@/components/sections";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <CompanionJourney />
       <Features />
       <AIScanner />
+      <VetFinder />
     </main>
   );
 }
