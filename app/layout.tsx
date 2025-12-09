@@ -1,9 +1,9 @@
 import "./globals.css";
 
+import { Footer, Navbar } from "@/components/ui";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import type { Metadata } from "next";
-import { Navbar } from "@/components/ui";
 import { generateMetadata as generateSEOMetadata } from "@/lib/config/seo";
 
 const geistSans = Geist({
@@ -34,6 +34,7 @@ export default function RootLayout({
       >
         <Navbar brandName="Borzolini" brandInitial="B" />
         {children}
+        <Footer brandName="Borzolini" brandInitial="B" />
       </body>
     </html>
   );
