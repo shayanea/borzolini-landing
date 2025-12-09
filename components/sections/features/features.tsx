@@ -1,5 +1,15 @@
 "use client";
 
+import {
+  Appointment,
+  Book,
+  Heart,
+  Library,
+  Pin,
+  Scan,
+  Sparkle,
+  Tracking,
+} from "@/assets/icons";
 import type { FC, SVGProps } from "react";
 
 import { FeatureCard } from "./components";
@@ -11,67 +21,90 @@ interface Feature {
   linkText?: string;
   isHighlighted?: boolean;
   isComingSoon?: boolean;
-  titleColor?: "white" | "purple";
+  iconColor?: string;
+  iconBackgroundColor?:
+    | "red"
+    | "purple"
+    | "green"
+    | "yellow"
+    | "blue"
+    | "pink"
+    | "teal";
 }
 
 const features: Feature[] = [
   {
-    icon: null,
+    icon: Heart,
     title: "Pet Adoption & Matching",
     description:
       "Find pets that match your lifestyle with our smart matching algorithm.",
     linkText: "Learn more",
+    iconBackgroundColor: "red",
+    iconColor: "#FB7185",
   },
   {
-    icon: null,
+    icon: Scan,
     title: "AI Health Scanner",
     description:
       "Instant health checks using your phone camera to identify potential issues.",
     linkText: "Learn more",
     isHighlighted: true,
+    iconBackgroundColor: "purple",
+    iconColor: "#9C5CF6",
   },
   {
-    icon: null,
+    icon: Tracking,
     title: "Weight & Health Tracking",
     description:
       "Monitor weight trends, set health goals, and visualize progress over time.",
     linkText: "Learn more",
+    iconBackgroundColor: "green",
+    iconColor: "#35D399",
   },
   {
-    icon: null,
+    icon: Book,
     title: "Training Resources",
     description:
       "Step-by-step guides, video tutorials, and progress tracking for every skill.",
     linkText: "Learn more",
+    iconBackgroundColor: "yellow",
+    iconColor: "#FBBF23",
   },
   {
-    icon: null,
+    icon: Library,
     title: "Pet Care Library",
     description:
       "Evidence-based care information with breed-specific guidance and tips.",
     linkText: "Learn more",
+    iconBackgroundColor: "blue",
+    iconColor: "#60A5FA",
   },
   {
-    icon: null,
+    icon: Sparkle,
     title: "Pet Name Generator",
     description:
       "AI-powered name suggestions filtered by style, origin, and personality.",
     linkText: "Learn more",
+    iconBackgroundColor: "pink",
+    iconColor: "#F472B6",
   },
   {
-    icon: null,
+    icon: Pin,
     title: "Nearby Vet Clinics",
     description:
       "Find clinics by service type, read reviews, and check availability.",
     linkText: "Learn more",
+    iconBackgroundColor: "teal",
+    iconColor: "#22D3EE",
   },
   {
-    icon: null,
+    icon: Appointment,
     title: "Appointments & Home Visits",
     description:
       "Book video consultations and schedule home veterinary visits.",
     isComingSoon: true,
-    titleColor: "purple",
+    iconBackgroundColor: "purple",
+    iconColor: "#A78BFA",
   },
 ];
 
@@ -87,7 +120,7 @@ export function Features() {
           </p>
 
           {/* Title */}
-          <h2 className="mb-4 text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
+          <h2 className="mb-4 text-xl font-bold text-white sm:text-5xl lg:text-6xl">
             Everything your pet needs
           </h2>
 
@@ -108,7 +141,8 @@ export function Features() {
               linkText={feature.linkText}
               isHighlighted={feature.isHighlighted}
               isComingSoon={feature.isComingSoon}
-              titleColor={feature.titleColor}
+              iconColor={feature.iconColor}
+              iconBackgroundColor={feature.iconBackgroundColor}
             />
           ))}
         </div>

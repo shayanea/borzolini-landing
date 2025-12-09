@@ -1,4 +1,9 @@
-import { CompanionJourney, Features, Hero } from "@/components/sections";
+import {
+  AIScanner,
+  CompanionJourney,
+  Features,
+  Hero,
+} from "@/components/sections";
 
 export default function Home() {
   return (
@@ -6,6 +11,7 @@ export default function Home() {
       <Hero />
       <CompanionJourney />
       <Features />
+      <AIScanner />
     </main>
   );
 }

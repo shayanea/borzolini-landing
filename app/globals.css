@@ -19,3 +19,19 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
+
+@keyframes scan {
+  0% {
+    top: 15%;
+  }
+  50% {
+    top: 85%;
+  }
+  100% {
+    top: 15%;
+  }
+}
+
+.animate-scan {
+  animation: scan 3s ease-in-out infinite;
+}

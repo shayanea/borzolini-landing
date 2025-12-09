@@ -1,8 +1,15 @@
 export { default as Android } from "./android.svg";
+export { AppointmentIcon as Appointment } from "./appointment-icon";
+export { BookIcon as Book } from "./book-icon";
 export { HeartIcon as Heart } from "./heart-icon";
 export { HomeIcon as Home } from "./home-icon";
 export { default as iOS } from "./iOS.svg";
+export { LibraryIcon as Library } from "./library-icon";
+export { PinIcon as Pin } from "./pin-icon";
 export { PulseIcon as Pulse } from "./pulse-icon";
+export { ScanIcon as Scan } from "./scan-icon";
 export { SearchIcon as Search } from "./search-icon";
+export { SparkleIcon as Sparkle } from "./sparkle";
+export { TrackingIcon as Tracking } from "./tracking-icon";
 export { TrainingIcon as Training } from "./training-icon";
 export { VetIcon as Vet } from "./vet-icon";
