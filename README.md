@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clinic Landing Page
+
+A modern, SEO-optimized landing page built with Next.js 16, TypeScript, Tailwind CSS, and Framer Motion.
+
+## Features
+
+- ⚡ **Next.js 16** with App Router
+- 🎨 **Tailwind CSS v4** with custom color scheme
+- 🎭 **Framer Motion** for smooth animations
+- 🔍 **SEO Optimized** with next-seo and sitemap generation
+- 📝 **TypeScript** for type safety
+- 🎯 **ESLint & Prettier** for code quality
+- 🪝 **Husky** pre-commit hooks with commitlint
+- 🏗️ **Clean Architecture** with separated logic and UI concerns
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- pnpm (recommended package manager)
+
+### Installation
+
+1. Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Set up environment variables:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cp .env.example .env.local
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Update `NEXT_PUBLIC_SITE_URL` with your domain.
 
-## Learn More
+3. Run the development server:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```
+web/
+├── app/                    # Next.js App Router pages
+│   ├── layout.tsx         # Root layout with SEO metadata
+│   ├── page.tsx           # Landing page
+│   ├── robots.ts          # Robots.txt generation
+│   └── sitemap.ts         # Sitemap generation
+├── components/            # React components
+│   ├── ui/               # Reusable UI components
+│   └── sections/         # Page sections
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions and configs
+│   ├── config/          # Configuration files
+│   └── utils/           # Utility functions
+└── public/              # Static assets
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Color Scheme
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Background**: `#17171c`
+- **Primary**: `#9c5cf6`
+- **Foreground**: `#ffffff`
+
+## Scripts
+
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production (includes sitemap generation)
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint
+- `pnpm lint:fix` - Fix ESLint errors
+- `pnpm format` - Format code with Prettier
+- `pnpm format:check` - Check code formatting
+
+## SEO Configuration
+
+The project includes comprehensive SEO setup:
+
+- Dynamic metadata generation via `lib/config/seo.ts`
+- Automatic sitemap generation (`app/sitemap.ts`)
+- Robots.txt configuration (`app/robots.ts`)
+- Open Graph and Twitter Card support
+- Structured data ready
+
+Update `lib/config/site.ts` with your site information.
+
+## Commit Convention
+
+This project uses [Conventional Commits](https://www.conventionalcommits.org/) enforced by Husky and commitlint:
+
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation changes
+- `style:` - Code style changes (formatting, etc.)
+- `refactor:` - Code refactoring
+- `test:` - Adding tests
+- `chore:` - Maintenance tasks
+
+## Best Practices
+
+- **Separation of Concerns**: Logic is separated from UI components
+- **Type Safety**: All components and functions are fully typed
+- **Component Reusability**: UI components are designed to be reusable
+- **Performance**: Optimized images, code splitting, and lazy loading
+- **Accessibility**: Semantic HTML and ARIA attributes where needed
+
+## License
+
+Private project - All rights reserved
