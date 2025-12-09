@@ -1,29 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 import React from "react";
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-    },
-  },
-};
 
 const leftSlideVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -49,125 +28,80 @@ const rightSlideVariants = {
   },
 };
 
-interface PhoneCardProps {
-  title: string;
-  icon: React.ReactNode;
-}
-
-const PhoneCard: React.FC<PhoneCardProps> = ({ title, icon }) => (
-  <div className="flex flex-col items-center gap-3 rounded-2xl border border-gray-800 bg-linear-to-b from-gray-900/50 to-gray-900/20 p-6 backdrop-blur-sm">
-    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-600/20 text-2xl">
-      {icon}
-    </div>
-    <p className="text-center text-sm font-medium text-gray-300">{title}</p>
-  </div>
-);
-
 export function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-linear-to-b from-gray-900 via-gray-900 to-gray-950 px-4 py-20 sm:px-6 lg:px-8">
-      {/* Background gradients */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 -left-40 h-80 w-80 rounded-full bg-purple-600/10 blur-3xl" />
-        <div className="absolute -right-40 -bottom-40 h-80 w-80 rounded-full bg-purple-600/10 blur-3xl" />
-      </div>
-
-      <div className="relative mx-auto max-w-7xl">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-8">
+    <section className="relative min-h-screen overflow-hidden bg-gray-950 px-4 py-16 sm:px-8 lg:px-16">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Left Content */}
-          <motion.div
-            className="flex flex-col justify-center"
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-          >
+          <div className="flex flex-col justify-center">
             {/* Badge */}
-            <motion.div
-              className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-purple-600/30 bg-purple-600/10 px-4 py-2 backdrop-blur-sm"
-              variants={itemVariants}
-            >
+            <div className="mb-8 inline-flex w-fit items-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2">
               <span className="h-2 w-2 rounded-full bg-purple-500" />
               <span className="text-sm font-medium text-purple-300">
                 Now available on iOS & Android
               </span>
-            </motion.div>
+            </div>
 
             {/* Main Heading */}
-            <motion.div variants={itemVariants}>
-              <h1 className="mb-6 text-5xl leading-tight font-bold text-white sm:text-6xl lg:text-5xl">
-                Everything you need for your pet.{" "}
-                <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                  In one place.
-                </span>
-              </h1>
-            </motion.div>
+            <h1 className="mb-6 text-6xl leading-tight font-bold text-white">
+              Everything you need for your pet.{" "}
+              <span className="text-purple-500">In one place.</span>
+            </h1>
 
             {/* Description */}
-            <motion.p
-              className="mb-8 max-w-lg text-lg text-gray-400"
-              variants={itemVariants}
-            >
+            <p className="mb-8 max-w-md text-base text-gray-400">
               From finding your new companion to daily care, health tracking,
               and emergency support — we&apos;re with you every step.
-            </motion.p>
+            </p>
 
             {/* CTA Buttons */}
-            <motion.div
-              className="flex flex-col gap-3 sm:flex-row sm:items-center"
-              variants={itemVariants}
-            >
-              <Button
-                size="lg"
-                variant="primary"
-                className="flex items-center justify-center gap-2"
-              >
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+              <Button size="lg" variant="primary">
                 <svg
-                  className="h-5 w-5"
+                  className="mr-2 h-5 w-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                  <path d="M17.05 13.5c-.91 0-1.64.7-1.7 1.6h3.4c-.06-.9-.79-1.6-1.7-1.6m-4.5 0c-.9 0-1.65.7-1.7 1.6h3.4c-.05-.9-.8-1.6-1.7-1.6M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 15.1h-3v-5.6h3v5.6zm6-7c-.5 1.6-2 2.7-3.7 2.7s-3.2-1.1-3.7-2.7H7V6h10v5.1z" />
                 </svg>
                 Download for iOS
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="flex items-center justify-center gap-2"
-              >
+              <Button size="lg" variant="outline">
                 <svg
-                  className="h-5 w-5"
+                  className="mr-2 h-5 w-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M8 5v14l11-7z" />
+                  <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.23-.86-.28-.17-.66-.04-.82.27l-1.96 3.46c-2.92-.92-7.26-.92-10.18 0L4.59 5.65c-.16-.31-.54-.44-.82-.27-.27.17-.39.55-.23.86L6.4 9.48C3.3 11.74 1.7 15.42 1.7 19.2h20.6c0-3.78-1.6-7.46-4.7-9.72zM7 16.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm10 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
                 </svg>
                 Download for Android
               </Button>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
           {/* Right Content - Phone Mockup */}
-          <div className="relative flex flex-col items-center gap-6">
-            {/* Top Right Card - Health Check */}
+          <div className="relative h-screen max-h-96 lg:max-h-full">
+            {/* Health Check Card - Top Right */}
             <motion.div
-              className="absolute -top-12 right-0 z-20 w-64"
+              className="absolute top-0 right-0 w-64"
               variants={rightSlideVariants}
               initial="hidden"
               animate="visible"
             >
-              <div className="rounded-3xl border border-gray-800 bg-linear-to-br from-gray-900/80 to-gray-900/40 p-4 backdrop-blur-xl">
-                <div className="mb-4 flex items-start justify-between">
+              <div className="rounded-3xl border border-gray-700/50 bg-gray-900/40 p-5 backdrop-blur-md">
+                {/* Header */}
+                <div className="mb-5 flex items-start justify-between">
                   <div>
-                    <p className="text-xs text-gray-500">Welcome back</p>
-                    <p className="text-lg font-bold text-white">Good morning</p>
+                    <p className="text-xs text-gray-500">Good morning</p>
+                    <p className="text-xl font-bold text-white">Welcome back</p>
                   </div>
-                  <div className="h-12 w-12 rounded-full bg-purple-500/30 ring-2 ring-purple-500/50" />
+                  <div className="h-12 w-12 rounded-full bg-purple-600/40 ring-2 ring-purple-500" />
                 </div>
 
-                {/* Health Status */}
-                <div className="mb-4 flex items-center gap-3 rounded-2xl bg-gray-800/30 p-3">
-                  <div className="h-3 w-3 rounded-full bg-green-500" />
+                {/* Health Check */}
+                <div className="mb-5 flex items-center gap-3 rounded-2xl bg-gray-800/30 p-3">
+                  <div className="h-2 w-2 rounded-full bg-green-500" />
                   <div>
                     <p className="text-xs text-gray-500">Health Check</p>
                     <p className="text-sm font-semibold text-white">
@@ -177,61 +111,76 @@ export function Hero() {
                 </div>
 
                 {/* Pet Stats */}
-                <div className="grid grid-cols-3 gap-2 text-center text-xs">
+                <div className="mb-5 grid grid-cols-3 gap-3 text-center">
                   <div>
-                    <p className="font-bold text-purple-300">28kg</p>
-                    <p className="text-gray-500">Weight</p>
+                    <p className="text-sm font-bold text-purple-400">28kg</p>
+                    <p className="text-xs text-gray-500">Weight</p>
                   </div>
                   <div>
-                    <p className="font-bold text-purple-300">3y</p>
-                    <p className="text-gray-500">Age</p>
+                    <p className="text-sm font-bold text-purple-400">3y</p>
+                    <p className="text-xs text-gray-500">Age</p>
                   </div>
                   <div>
-                    <p className="font-bold text-purple-300">2w</p>
-                    <p className="text-gray-500">Next Vet</p>
+                    <p className="text-sm font-bold text-purple-400">2w</p>
+                    <p className="text-xs text-gray-500">Next Vet</p>
                   </div>
                 </div>
 
-                {/* Pet Name */}
-                <div className="mt-4 flex items-center gap-2 rounded-xl bg-gray-800/20 p-2">
-                  <div className="h-8 w-8 rounded-full bg-purple-600/30" />
-                  <div className="flex-1 text-left">
-                    <p className="text-sm font-semibold text-white">Luna</p>
+                {/* Pet Info */}
+                <div className="flex items-center gap-3 rounded-xl bg-gray-800/20 p-3">
+                  <div className="h-10 w-10 rounded-full bg-purple-600/30" />
+                  <div>
+                    <p className="text-sm font-bold text-white">Luna</p>
                     <p className="text-xs text-gray-500">Golden Retriever</p>
                   </div>
                 </div>
               </div>
             </motion.div>
 
-            {/* Bottom Left Card - Features Grid */}
+            {/* Features Grid - Bottom Left */}
             <motion.div
-              className="absolute -bottom-16 left-0 z-10 w-72"
+              className="absolute bottom-0 left-0 w-72"
               variants={leftSlideVariants}
               initial="hidden"
               animate="visible"
             >
-              <div className="rounded-3xl border border-gray-800 bg-linear-to-br from-gray-900/80 to-gray-900/40 p-4 backdrop-blur-xl">
+              <div className="rounded-3xl border border-gray-700/50 bg-gray-900/40 p-4 backdrop-blur-md">
                 <div className="grid grid-cols-2 gap-3">
-                  <PhoneCard title="AI Scanner" icon="🔍" />
-                  <PhoneCard title="3 clinics nearby" icon="📍" />
-                  <PhoneCard title="Training" icon="📚" />
-                  <PhoneCard title="Care Tips" icon="💡" />
+                  <div className="flex flex-col items-center gap-2 rounded-2xl border border-gray-700/30 bg-gray-800/20 p-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600/20 text-lg">
+                      📋
+                    </div>
+                    <p className="text-center text-xs font-medium text-gray-300">
+                      AI Scanner
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 rounded-2xl border border-gray-700/30 bg-gray-800/20 p-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600/20 text-lg">
+                      📍
+                    </div>
+                    <p className="text-center text-xs font-medium text-gray-300">
+                      3 clinics nearby
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 rounded-2xl border border-gray-700/30 bg-gray-800/20 p-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600/20 text-lg">
+                      📚
+                    </div>
+                    <p className="text-center text-xs font-medium text-gray-300">
+                      Training
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 rounded-2xl border border-gray-700/30 bg-gray-800/20 p-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600/20 text-lg">
+                      💡
+                    </div>
+                    <p className="text-center text-xs font-medium text-gray-300">
+                      Care Tips
+                    </p>
+                  </div>
                 </div>
               </div>
             </motion.div>
-
-            {/* Center Phone Frame */}
-            <div className="relative z-0 mx-auto w-full max-w-xs">
-              <div className="rounded-3xl border-8 border-gray-900 bg-black shadow-2xl">
-                {/* Phone Notch */}
-                <div className="absolute top-0 left-1/2 z-10 h-6 w-40 -translate-x-1/2 rounded-b-3xl bg-black" />
-
-                {/* Phone Content */}
-                <div className="aspect-[9/19.5] rounded-2xl bg-linear-to-b from-gray-900 to-gray-950 p-4">
-                  <div className="h-full rounded-xl bg-linear-to-b from-gray-800/30 to-gray-900/30 backdrop-blur-sm" />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
