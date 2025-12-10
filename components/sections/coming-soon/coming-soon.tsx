@@ -1,8 +1,8 @@
 "use client";
 
 import { SectionWrapper } from "@/components/ui";
-import { ArrowRight, Bell, Check, House, Video } from "lucide-react";
 import * as motion from "framer-motion/client";
+import { ArrowRight, Bell, Check, House, Video } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
 export function ComingSoon() {

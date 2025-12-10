@@ -1,7 +1,8 @@
 "use client";
 
-import { SectionWrapper } from "@/components/ui";
 import * as motion from "framer-motion/client";
+
+import { SectionWrapper } from "@/components/ui";
 
 export function AIScanner() {
   return (

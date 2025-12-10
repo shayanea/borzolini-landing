@@ -1,10 +1,11 @@
 "use client";
 
-import { Heart, Home, Pulse, Search, Training, Vet } from "@/assets/icons";
-import type { FC, SVGProps } from "react";
 import * as motion from "framer-motion/client";
 
+import type { FC, SVGProps } from "react";
+import { Heart, Home, Pulse, Search, Training, Vet } from "@/assets/icons";
 import { SectionHeader, SectionWrapper } from "@/components/ui";
+
 import { ProcessCard } from "./components";
 
 interface ProcessStep {

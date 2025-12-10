@@ -1,5 +1,7 @@
 "use client";
 
+import * as motion from "framer-motion/client";
+
 import {
   Apple,
   ArrowRight,
@@ -8,7 +10,6 @@ import {
   Play,
   ShieldCheck,
 } from "lucide-react";
-import * as motion from "framer-motion/client";
 
 import { SectionWrapper } from "@/components/ui";
 

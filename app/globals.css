@@ -35,3 +35,9 @@ body {
 .animate-scan {
   animation: scan 3s ease-in-out infinite;
 }
+
+/* Dark mode map tiles */
+.dark-map-tiles {
+  filter: invert(1) hue-rotate(180deg) brightness(0.6) contrast(0.9)
+    grayscale(0.8);
+}

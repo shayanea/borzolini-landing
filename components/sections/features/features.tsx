@@ -1,5 +1,7 @@
 "use client";
 
+import * as motion from "framer-motion/client";
+
 import {
   Appointment,
   Book,
@@ -11,7 +13,6 @@ import {
   Tracking,
 } from "@/assets/icons";
 import type { FC, SVGProps } from "react";
-import * as motion from "framer-motion/client";
 import { SectionHeader, SectionWrapper } from "@/components/ui";
 
 import { FeatureCard } from "./components";

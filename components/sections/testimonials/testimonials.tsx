@@ -1,8 +1,8 @@
 "use client";
 
-import { Quote, Star } from "lucide-react";
 import * as motion from "framer-motion/client";
 
+import { Quote, Star } from "lucide-react";
 import { SectionHeader, SectionWrapper } from "@/components/ui";
 
 interface Testimonial {
