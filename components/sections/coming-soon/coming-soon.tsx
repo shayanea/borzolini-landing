@@ -1,5 +1,6 @@
 "use client";
 
+import { SectionWrapper } from "@/components/ui";
 import { ArrowRight, Bell, Check, House, Video } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
@@ -19,11 +20,14 @@ export function ComingSoon() {
   };
 
   return (
-    <section className="relative overflow-hidden px-6 py-24">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-linear-to-br from-[#9c5cf6]/5 via-transparent to-transparent" />
-
-      <div className="relative mx-auto max-w-4xl">
+    <SectionWrapper
+      maxWidth="4xl"
+      customClassName="overflow-hidden"
+      backdrop={
+        <div className="absolute inset-0 bg-linear-to-br from-[#9c5cf6]/5 via-transparent to-transparent" />
+      }
+    >
+      <div className="relative">
         {/* Header Section */}
         <div className="text-center">
           {/* Coming Soon Badge */}
@@ -155,6 +159,6 @@ export function ComingSoon() {
           </p>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

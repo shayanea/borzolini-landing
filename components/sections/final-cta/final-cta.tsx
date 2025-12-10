@@ -1,5 +1,6 @@
 "use client";
 
+import { SectionWrapper } from "@/components/ui";
 import {
   Apple,
   ArrowRight,
@@ -11,13 +12,14 @@ import {
 
 export function FinalCTA() {
   return (
-    <section className="relative overflow-hidden px-6 py-24">
-      {/* Background Blur Effect */}
-      <div className="absolute inset-0">
+    <SectionWrapper
+      maxWidth="4xl"
+      customClassName="overflow-hidden"
+      backdrop={
         <div className="pointer-events-none absolute top-1/2 left-1/2 h-[800px] w-[800px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#9c5cf6]/10 blur-[150px]" />
-      </div>
-
-      <div className="relative mx-auto max-w-4xl text-center">
+      }
+    >
+      <div className="relative text-center">
         {/* Main Heading */}
         <h2 className="mb-6 text-3xl leading-tight font-bold text-white sm:text-4xl lg:text-5xl">
           Ready to give your pet the care they deserve?
@@ -71,6 +73,6 @@ export function FinalCTA() {
           </span>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

@@ -1,6 +1,6 @@
 import { Android, iOS } from "@/assets/icons";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button/button";
 import Image from "next/image";
 import { motion } from "framer-motion";
 

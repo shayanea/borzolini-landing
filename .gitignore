@@ -52,3 +52,5 @@ next-env.d.ts
 # OS
 .DS_Store
 Thumbs.db
+
+.early.coverage

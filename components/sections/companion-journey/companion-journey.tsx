@@ -1,8 +1,9 @@
 "use client";
 
-import type { FC, SVGProps } from "react";
 import { Heart, Home, Pulse, Search, Training, Vet } from "@/assets/icons";
+import type { FC, SVGProps } from "react";
 
+import { SectionHeader, SectionWrapper } from "@/components/ui";
 import { ProcessCard } from "./components";
 
 interface ProcessStep {
@@ -46,43 +47,34 @@ const processSteps: ProcessStep[] = [
 
 export function CompanionJourney() {
   return (
-    <section className="px-6 py-24 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl">
-        <div className="mb-16 text-center">
-          {/* Heading */}
-          <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            Your companion through every moment
-          </h2>
+    <SectionWrapper>
+      <SectionHeader
+        title="Your companion through every moment"
+        subtitle="From the first search to years of companionship, we're here at every stage"
+        titleSize="lg"
+      />
 
-          {/* Subheading */}
-          <p className="mx-auto max-w-2xl text-lg text-slate-400">
-            From the first search to years of companionship, we&apos;re here at
-            every stage
-          </p>
+      {/* Process Cards with Connecting Line */}
+      <div className="relative">
+        {/* Continuous Dashed Line - positioned at center of icons (h-24 = 96px, center = 48px = top-12) */}
+        <div className="absolute top-12 right-0 left-0 z-0 hidden lg:block">
+          <div className="mx-auto h-px w-full max-w-[calc(100%-8rem)]">
+            <div className="h-full border-t border-dashed border-[#4F4F55]" />
+          </div>
         </div>
 
-        {/* Process Cards with Connecting Line */}
-        <div className="relative">
-          {/* Continuous Dashed Line - positioned at center of icons (h-24 = 96px, center = 48px = top-12) */}
-          <div className="absolute top-12 right-0 left-0 z-0 hidden lg:block">
-            <div className="mx-auto h-px w-full max-w-[calc(100%-8rem)]">
-              <div className="h-full border-t border-dashed border-[#4F4F55]" />
-            </div>
-          </div>
-
-          {/* Cards Grid */}
-          <div className="relative z-10 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6 lg:gap-4">
-            {processSteps.map((step, index) => (
-              <ProcessCard
-                key={index}
-                icon={step.icon}
-                title={step.title}
-                description={step.description}
-              />
-            ))}
-          </div>
+        {/* Cards Grid */}
+        <div className="relative z-10 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6 lg:gap-4">
+          {processSteps.map((step, index) => (
+            <ProcessCard
+              key={index}
+              icon={step.icon}
+              title={step.title}
+              description={step.description}
+            />
+          ))}
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import type { Metadata } from "next";
 import { generateMetadata as generateSEOMetadata } from "@/lib/config/seo";
+import { siteConfig } from "@/lib/config/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,9 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = generateSEOMetadata({
-  title: undefined,
-  description:
-    "Your trusted healthcare partner. We provide exceptional medical care with a focus on your well-being.",
+  description: siteConfig.description,
 });
 
 export default function RootLayout({

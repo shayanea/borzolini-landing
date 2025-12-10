@@ -4,10 +4,6 @@ import { siteConfig } from "./site";
 export const seoSiteConfig = {
   ...siteConfig,
   ogImage: "/og-image.jpg",
-  links: {
-    twitter: "https://twitter.com/yourhandle",
-    github: "https://github.com/yourusername",
-  },
 } as const;
 
 export function generateMetadata({
@@ -15,21 +11,25 @@ export function generateMetadata({
   description,
   image,
   noIndex = false,
+  keywords,
 }: {
   title?: string;
   description?: string;
   image?: string;
   noIndex?: boolean;
+  keywords?: string[];
 }): Metadata {
   const metaTitle = title
     ? `${title} | ${seoSiteConfig.name}`
     : seoSiteConfig.name;
   const metaDescription = description || seoSiteConfig.description;
   const metaImage = image || `${seoSiteConfig.url}${seoSiteConfig.ogImage}`;
+  const metaKeywords = keywords || seoSiteConfig.keywords;
 
   return {
     title: metaTitle,
     description: metaDescription,
+    keywords: metaKeywords,
     metadataBase: new URL(siteConfig.url),
     alternates: {
       canonical: "/",

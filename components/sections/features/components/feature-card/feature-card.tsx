@@ -1,5 +1,7 @@
 "use client";
 
+import { getIconGradient } from "@/lib/constants/icon-colors";
+import type { IconBackgroundColor } from "@/lib/types/section";
 import type { FC, SVGProps } from "react";
 
 interface FeatureCardProps {
@@ -11,33 +13,8 @@ interface FeatureCardProps {
   isHighlighted?: boolean;
   isComingSoon?: boolean;
   titleColor?: "white" | "purple";
-  iconBackgroundColor?:
-    | "red"
-    | "purple"
-    | "green"
-    | "yellow"
-    | "blue"
-    | "pink"
-    | "teal";
+  iconBackgroundColor?: IconBackgroundColor;
 }
-
-const getIconGradient = (
-  color?: "red" | "purple" | "green" | "yellow" | "blue" | "pink" | "teal"
-) => {
-  const gradients: Record<
-    "red" | "purple" | "green" | "yellow" | "blue" | "pink" | "teal",
-    string
-  > = {
-    red: "from-[#FF69B4]/30 to-[#FF69B4]/10",
-    purple: "from-[#9c5cf6]/30 to-[#9c5cf6]/10",
-    green: "from-[#00FF00]/30 to-[#00FF00]/10",
-    yellow: "from-[#FFA500]/30 to-[#FFA500]/10",
-    blue: "from-[#00BFFF]/30 to-[#00BFFF]/10",
-    pink: "from-[#FF00FF]/30 to-[#FF00FF]/10",
-    teal: "from-[#00FFFF]/30 to-[#00FFFF]/10",
-  };
-  return color ? gradients[color] : "from-slate-800 to-slate-800";
-};
 
 export function FeatureCard({
   icon: Icon,
