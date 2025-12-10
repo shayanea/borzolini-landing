@@ -11,6 +11,7 @@ import {
   Tracking,
 } from "@/assets/icons";
 import type { FC, SVGProps } from "react";
+import * as motion from "framer-motion/client";
 import { SectionHeader, SectionWrapper } from "@/components/ui";
 
 import { FeatureCard } from "./components";
@@ -88,6 +89,27 @@ const features: Feature[] = [
   },
 ];
 
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
+
 export function Features() {
   return (
     <SectionWrapper>
@@ -99,24 +121,31 @@ export function Features() {
       />
 
       {/* Features Grid */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4"
+      >
         {features.map((feature) => {
           const colorConfig = getIconColorConfig(feature.iconBackgroundColor);
           return (
-            <FeatureCard
-              key={feature.title}
-              icon={feature.icon}
-              title={feature.title}
-              description={feature.description}
-              linkText={feature.linkText}
-              isHighlighted={feature.isHighlighted}
-              isComingSoon={feature.isComingSoon}
-              iconColor={colorConfig?.color}
-              iconBackgroundColor={feature.iconBackgroundColor}
-            />
+            <motion.div key={feature.title} variants={itemVariants}>
+              <FeatureCard
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
+                linkText={feature.linkText}
+                isHighlighted={feature.isHighlighted}
+                isComingSoon={feature.isComingSoon}
+                iconColor={colorConfig?.color}
+                iconBackgroundColor={feature.iconBackgroundColor}
+              />
+            </motion.div>
           );
         })}
-      </div>
+      </motion.div>
     </SectionWrapper>
   );
 }

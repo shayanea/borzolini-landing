@@ -1,6 +1,7 @@
 "use client";
 
 import { Quote, Star } from "lucide-react";
+import * as motion from "framer-motion/client";
 
 import { SectionHeader, SectionWrapper } from "@/components/ui";
 
@@ -39,6 +40,27 @@ const testimonials: Testimonial[] = [
   },
 ];
 
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
+
 export function Testimonials() {
   return (
     <SectionWrapper maxWidth="6xl">
@@ -49,10 +71,17 @@ export function Testimonials() {
       />
 
       {/* Testimonials Grid */}
-      <div className="grid gap-6 md:grid-cols-3">
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        className="grid gap-6 md:grid-cols-3"
+      >
         {testimonials.map((testimonial, index) => (
-          <div
+          <motion.div
             key={index}
+            variants={itemVariants}
             className="rounded-2xl border border-slate-800 bg-[#1f1f26] p-6 transition-all hover:border-slate-700"
           >
             {/* Quote Icon */}
@@ -92,9 +121,9 @@ export function Testimonials() {
                 ))}
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </SectionWrapper>
   );
 }

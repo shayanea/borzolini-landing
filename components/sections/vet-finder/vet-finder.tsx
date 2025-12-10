@@ -1,6 +1,7 @@
 "use client";
 
 import { SectionWrapper } from "@/components/ui";
+import * as motion from "framer-motion/client";
 
 export function VetFinder() {
   return (
@@ -12,7 +13,12 @@ export function VetFinder() {
     >
       <div className="grid items-center gap-16 lg:grid-cols-2">
         {/* Left Column - Content */}
-        <div>
+        <motion.div
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
           {/* Header */}
           <span className="mb-4 inline-flex items-center gap-2 text-sm font-medium text-[#9c5cf6]">
             <svg
@@ -164,10 +170,16 @@ export function VetFinder() {
               <p className="text-xs text-slate-500">Avg. Rating</p>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Right Column - Map */}
-        <div className="relative">
+        <motion.div
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="relative"
+        >
           <div className="relative rounded-3xl border border-slate-800 bg-[#1f1f26] p-4 shadow-2xl">
             {/* Map Area */}
             <div className="relative aspect-square overflow-hidden rounded-2xl bg-[#17171c]">
@@ -525,7 +537,7 @@ export function VetFinder() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </SectionWrapper>
   );

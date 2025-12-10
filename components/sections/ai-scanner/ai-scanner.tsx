@@ -1,6 +1,7 @@
 "use client";
 
 import { SectionWrapper } from "@/components/ui";
+import * as motion from "framer-motion/client";
 
 export function AIScanner() {
   return (
@@ -12,7 +13,13 @@ export function AIScanner() {
     >
       <div className="grid items-center gap-16 lg:grid-cols-2">
         {/* Phone Mockup - Left Side */}
-        <div className="relative order-2 lg:order-1">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="relative order-2 lg:order-1"
+        >
           <div className="relative mx-auto max-w-[300px]">
             {/* Phone Frame */}
             <div className="relative rounded-[2.5rem] border border-slate-800 bg-[#1f1f26] p-2.5 shadow-2xl shadow-black/50">
@@ -124,10 +131,16 @@ export function AIScanner() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Content - Right Side */}
-        <div className="order-1 lg:order-2">
+        <motion.div
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="order-1 lg:order-2"
+        >
           {/* Powered by AI Tag */}
           <span className="mb-4 inline-flex items-center gap-2 text-sm font-medium text-[#9c5cf6]">
             <svg
@@ -245,7 +258,7 @@ export function AIScanner() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </SectionWrapper>
   );

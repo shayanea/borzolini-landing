@@ -2,6 +2,7 @@
 
 import { SectionWrapper } from "@/components/ui";
 import { ArrowRight, Bell, Check, House, Video } from "lucide-react";
+import * as motion from "framer-motion/client";
 import { useState, type FormEvent } from "react";
 
 export function ComingSoon() {
@@ -48,7 +49,13 @@ export function ComingSoon() {
     >
       <div className="relative">
         {/* Header Section */}
-        <div className="text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
           {/* Coming Soon Badge */}
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#9c5cf6]/20 bg-[#9c5cf6]/10 px-4 py-2">
             <span className="relative flex h-2 w-2">
@@ -70,12 +77,18 @@ export function ComingSoon() {
             We&apos;re building new ways to connect you with veterinary care
             from anywhere
           </p>
-        </div>
+        </motion.div>
 
         {/* Feature Cards Grid */}
         <div className="mb-16 grid gap-6 md:grid-cols-2">
           {/* Video Consultations Card */}
-          <div className="group rounded-2xl border border-slate-800 bg-[#1f1f26] p-8 transition-all duration-300 hover:border-[#9c5cf6]/30">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="group rounded-2xl border border-slate-800 bg-[#1f1f26] p-8 transition-all duration-300 hover:border-[#9c5cf6]/30"
+          >
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#9c5cf6]/10 transition-colors group-hover:bg-[#9c5cf6]/20">
               <Video className="h-7 w-7 text-[#9c5cf6]" />
             </div>
@@ -106,10 +119,16 @@ export function ComingSoon() {
                 Prescription service
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Home Veterinary Visits Card */}
-          <div className="group rounded-2xl border border-slate-800 bg-[#1f1f26] p-8 transition-all duration-300 hover:border-[#9c5cf6]/30">
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="group rounded-2xl border border-slate-800 bg-[#1f1f26] p-8 transition-all duration-300 hover:border-[#9c5cf6]/30"
+          >
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#9c5cf6]/10 transition-colors group-hover:bg-[#9c5cf6]/20">
               <House className="h-7 w-7 text-[#9c5cf6]" />
             </div>
@@ -140,11 +159,17 @@ export function ComingSoon() {
                 Follow-up support
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
 
         {/* Early Access Form */}
-        <div className="rounded-2xl border border-[#9c5cf6]/20 bg-linear-to-br from-[#9c5cf6]/10 to-transparent p-8 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="rounded-2xl border border-[#9c5cf6]/20 bg-linear-to-br from-[#9c5cf6]/10 to-transparent p-8 text-center"
+        >
           <Bell className="mx-auto mb-4 h-10 w-10 text-[#9c5cf6]" />
           <h3 className="mb-2 text-xl font-semibold text-white">
             Get early access
@@ -204,7 +229,7 @@ export function ComingSoon() {
           <p className="mt-4 text-xs text-slate-500">
             We respect your privacy. Unsubscribe at any time.
           </p>
-        </div>
+        </motion.div>
       </div>
     </SectionWrapper>
   );
