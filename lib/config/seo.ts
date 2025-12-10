@@ -12,12 +12,18 @@ export function generateMetadata({
   image,
   noIndex = false,
   keywords,
+  author,
+  publishedTime,
+  modifiedTime,
 }: {
   title?: string;
   description?: string;
   image?: string;
   noIndex?: boolean;
   keywords?: string[];
+  author?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
 }): Metadata {
   const metaTitle = title
     ? `${title} | ${seoSiteConfig.name}`
@@ -30,6 +36,9 @@ export function generateMetadata({
     title: metaTitle,
     description: metaDescription,
     keywords: metaKeywords,
+    authors: author ? [{ name: author }] : [{ name: seoSiteConfig.name }],
+    creator: seoSiteConfig.name,
+    publisher: seoSiteConfig.name,
     metadataBase: new URL(siteConfig.url),
     alternates: {
       canonical: "/",
@@ -45,16 +54,21 @@ export function generateMetadata({
           width: 1200,
           height: 630,
           alt: metaTitle,
+          type: "image/jpeg",
         },
       ],
       locale: "en_US",
       type: "website",
+      ...(publishedTime && { publishedTime }),
+      ...(modifiedTime && { modifiedTime }),
     },
     twitter: {
       card: "summary_large_image",
       title: metaTitle,
       description: metaDescription,
       images: [metaImage],
+      creator: "@borzolini",
+      site: "@borzolini",
     },
     robots: {
       index: !noIndex,
@@ -67,5 +81,12 @@ export function generateMetadata({
         "max-snippet": -1,
       },
     },
+    verification: {
+      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+      yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+      yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION,
+    },
+    category: "Pet Health",
+    classification: "Veterinary Services",
   };
 }

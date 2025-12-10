@@ -10,12 +10,12 @@ import {
   Sparkle,
   Tracking,
 } from "@/assets/icons";
-import { getIconColorConfig } from "@/lib/constants/icon-colors";
-import type { IconBackgroundColor } from "@/lib/types/section";
 import type { FC, SVGProps } from "react";
-
 import { SectionHeader, SectionWrapper } from "@/components/ui";
+
 import { FeatureCard } from "./components";
+import type { IconBackgroundColor } from "@/lib/types/section";
+import { getIconColorConfig } from "@/lib/constants/icon-colors";
 
 interface Feature {
   icon: FC<SVGProps<SVGSVGElement>> | null;
@@ -100,11 +100,11 @@ export function Features() {
 
       {/* Features Grid */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {features.map((feature, index) => {
+        {features.map((feature) => {
           const colorConfig = getIconColorConfig(feature.iconBackgroundColor);
           return (
             <FeatureCard
-              key={index}
+              key={feature.title}
               icon={feature.icon}
               title={feature.title}
               description={feature.description}

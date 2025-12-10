@@ -1,6 +1,5 @@
 "use client";
 
-import { SectionWrapper } from "@/components/ui";
 import {
   Apple,
   ArrowRight,
@@ -9,6 +8,8 @@ import {
   Play,
   ShieldCheck,
 } from "lucide-react";
+
+import { SectionWrapper } from "@/components/ui";
 
 export function FinalCTA() {
   return (

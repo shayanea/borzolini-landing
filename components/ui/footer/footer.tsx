@@ -81,12 +81,12 @@ export function Footer({
           </div>
 
           {/* Footer Columns */}
-          {footerColumns.map((column, index) => (
-            <div key={index}>
+          {footerColumns.map((column) => (
+            <div key={column.title}>
               <h4 className="mb-4 font-medium text-white">{column.title}</h4>
               <ul className="space-y-3">
-                {column.links.map((link, linkIndex) => (
-                  <li key={linkIndex}>
+                {column.links.map((link) => (
+                  <li key={link.href}>
                     <a
                       href={link.href}
                       className="text-sm text-slate-500 transition-colors hover:text-[#9c5cf6]"

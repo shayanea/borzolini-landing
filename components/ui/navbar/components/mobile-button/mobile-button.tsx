@@ -9,6 +9,8 @@ export const MobileButton = ({ setIsOpen, isOpen }: MobileButtonProps) => {
       onClick={() => setIsOpen(!isOpen)}
       className="rounded-lg p-2 text-gray-300 transition-colors duration-200 hover:bg-gray-800 hover:text-white md:hidden"
       aria-label="Toggle menu"
+      aria-expanded={isOpen}
+      aria-controls="mobile-navigation"
     >
       <svg
         className="h-6 w-6"

@@ -1,6 +1,6 @@
-import { forwardRef } from "react";
-import { motion, type HTMLMotionProps } from "framer-motion";
 import { cn } from "@/lib/utils/cn";
+import { motion, type HTMLMotionProps } from "framer-motion";
+import { forwardRef } from "react";
 
 export interface ButtonProps extends Omit<HTMLMotionProps<"button">, "ref"> {
   variant?: "primary" | "secondary" | "outline";
@@ -25,7 +25,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const sizes = {
       sm: "h-9 px-3 text-sm",
       md: "h-11 px-6 text-base",
-      lg: "h-13 px-8 text-lg",
+      lg: "h-14 px-8 text-lg",
     };
 
     return (

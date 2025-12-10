@@ -7,16 +7,35 @@ import { useState, type FormEvent } from "react";
 export function ComingSoon() {
   const [email, setEmail] = useState<string>("");
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+  const [error, setError] = useState<string>("");
+  const [success, setSuccess] = useState<boolean>(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError("");
+    setSuccess(false);
     setIsSubmitting(true);
 
-    // TODO: Implement email submission logic
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      // TODO: Implement email submission logic
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    setIsSubmitting(false);
-    setEmail("");
+      setSuccess(true);
+      setEmail("");
+
+      // Reset success message after 3 seconds
+      setTimeout(() => {
+        setSuccess(false);
+      }, 3000);
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Failed to submit email. Please try again."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -138,21 +157,49 @@ export function ComingSoon() {
               <input
                 type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  setError("");
+                  setSuccess(false);
+                }}
                 placeholder="Enter your email"
                 required
+                aria-label="Email address"
+                aria-invalid={error ? "true" : "false"}
+                aria-describedby={
+                  error ? "email-error" : success ? "email-success" : undefined
+                }
                 className="h-12 flex-1 rounded-xl border border-slate-700 bg-[#17171c] px-3 text-white placeholder:text-slate-500 focus:border-[#9c5cf6] focus:ring-1 focus:ring-[#9c5cf6] focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
                 disabled={isSubmitting}
               />
               <button
                 type="submit"
                 disabled={isSubmitting}
+                aria-label="Submit email for early access"
                 className="text-primary-foreground focus-visible:ring-ring inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-[#9c5cf6] px-6 py-2 font-medium whitespace-nowrap shadow transition-all hover:bg-[#8b4ae6] focus-visible:ring-1 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
               >
                 Notify me
                 <ArrowRight className="ml-2 h-4 w-4" />
               </button>
             </div>
+            {error && (
+              <p
+                id="email-error"
+                className="mt-2 text-sm text-red-400"
+                role="alert"
+              >
+                {error}
+              </p>
+            )}
+            {success && (
+              <p
+                id="email-success"
+                className="mt-2 text-sm text-green-400"
+                role="status"
+              >
+                Thanks! We&apos;ll notify you when these features are available.
+              </p>
+            )}
           </form>
           <p className="mt-4 text-xs text-slate-500">
             We respect your privacy. Unsubscribe at any time.
