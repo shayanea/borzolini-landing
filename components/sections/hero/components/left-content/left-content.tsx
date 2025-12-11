@@ -33,34 +33,38 @@ const LeftContent = () => {
       initial="hidden"
       animate="visible"
     >
-      {/* Badge */}
+      {/* Urgency Badge */}
       <motion.div
-        className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-purple-600/30 bg-purple-600/10 px-4 py-2 backdrop-blur-sm"
+        className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-2 backdrop-blur-sm"
         variants={itemVariants}
       >
-        <span className="h-2 w-2 rounded-full bg-purple-500" />
-        <span className="text-sm font-medium text-purple-300">
-          Now available on iOS & Android
+        <span className="relative flex h-2 w-2">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
+          <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+        </span>
+        <span className="text-sm font-medium text-red-200">
+          Emergency vet access 24/7
         </span>
       </motion.div>
 
       {/* Main Heading */}
       <motion.div variants={itemVariants}>
-        <h1 className="mb-6 text-6xl leading-tight font-bold text-white sm:text-6xl lg:text-6xl">
-          Everything you need for your pet.{" "}
-          <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-            In one place.
-          </span>
+        <h1 className="mb-6 text-5xl leading-tight font-bold text-white sm:text-6xl lg:text-6xl">
+          &quot;Is your pet okay right now?&quot;{" "}
         </h1>
+        <h2 className="mb-6 bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-3xl text-transparent">
+          Get AI-powered answers in 30 seconds — <br />
+          before symptoms become emergencies.
+        </h2>
       </motion.div>
 
       {/* Description */}
       <motion.p
-        className="mb-8 max-w-lg text-xl text-gray-400"
+        className="mb-8 max-w-lg text-base text-gray-400"
         variants={itemVariants}
       >
-        From finding your new companion to daily care, health tracking, and
-        emergency support — we&apos;re with you every step.
+        British Shorthair owners trust Borzolini to detect kidney issues, dental
+        problems, and respiratory concerns months before their vet visit.
       </motion.p>
 
       {/* CTA Buttons */}

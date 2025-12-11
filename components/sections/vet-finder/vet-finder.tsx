@@ -1,9 +1,9 @@
 "use client";
 
 import * as motion from "framer-motion/client";
-import dynamic from "next/dynamic";
 
 import { SectionWrapper } from "@/components/ui";
+import dynamic from "next/dynamic";
 
 const VetMap = dynamic(() => import("./components/vet-map"), {
   ssr: false,

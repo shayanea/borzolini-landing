@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Borzolini",
   description:
-    "The world's first AI-powered pet health companion. Transform care from reactive to predictive with 24/7 monitoring, telemedicine, and trusted in-home vet visits.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://borzolini.com",
+    "AI-powered emergency pet health triage. Know if your cat needs a vet in 30 seconds. Built for British Shorthair owners. Free poop/urine scanning.",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://borzolini.com",
   links: {
     twitter: "https://twitter.com/borzolini",
     instagram: "https://instagram.com/borzolini",

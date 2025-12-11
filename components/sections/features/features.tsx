@@ -4,12 +4,12 @@ import * as motion from "framer-motion/client";
 
 import {
   Appointment,
-  Book,
-  Heart,
-  Library,
-  Pin,
+  Camera,
+  Genetic,
+  HealthScore,
+  Product,
   Scan,
-  Sparkle,
+  Telephone,
   Tracking,
 } from "@/assets/icons";
 import type { FC, SVGProps } from "react";
@@ -31,60 +31,58 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    icon: Heart,
-    title: "Pet Adoption & Matching",
-    description:
-      "Find pets that match your lifestyle with our smart matching algorithm.",
-    iconBackgroundColor: "red",
-  },
-  {
     icon: Scan,
-    title: "AI Health Scanner",
+    title: "Emergency AI Triage",
     description:
-      "Instant health checks using your phone camera to identify potential issues.",
+      "Ate something toxic? Get urgency score + vet connection in 30 seconds",
     isHighlighted: true,
     iconBackgroundColor: "purple",
   },
   {
-    icon: Tracking,
-    title: "Weight & Health Tracking",
+    icon: Camera,
+    title: "Feces Analysis",
     description:
-      "Monitor weight trends, set health goals, and visualize progress over time.",
+      "Photo-based stool analysis. Free vs competitors' $30 test kits",
+
+    iconBackgroundColor: "red",
+  },
+  {
+    icon: Tracking,
+    title: "Medication Tracker",
+    description: "Know if your pet's medication is actually working",
     iconBackgroundColor: "green",
   },
   {
-    icon: Book,
-    title: "Training Resources",
+    icon: HealthScore,
+    title: "Pet Health Score",
     description:
-      "Step-by-step guides, video tutorials, and progress tracking for every skill.",
+      "Gamified health tracking. See if your pet is healthier than others",
     iconBackgroundColor: "yellow",
   },
   {
-    icon: Library,
-    title: "Pet Care Library",
+    icon: Genetic,
+    title: "Breed-Specific AI",
     description:
-      "Evidence-based care information with breed-specific guidance and tips.",
+      "Trained on British Shorthair patterns. Predicts issues before symptoms",
     iconBackgroundColor: "blue",
   },
   {
-    icon: Sparkle,
-    title: "Pet Name Generator",
-    description:
-      "AI-powered name suggestions filtered by style, origin, and personality.",
-    iconBackgroundColor: "pink",
+    icon: Product,
+    title: "Smart Product Recommendations",
+    description: "AI suggests supplements based on your pet's scans",
+    iconBackgroundColor: "teal",
   },
   {
-    icon: Pin,
-    title: "Nearby Vet Clinics",
-    description:
-      "Find clinics by service type, read reviews, and check availability.",
-    iconBackgroundColor: "teal",
+    icon: Telephone,
+    title: "Instant Vet Access",
+    description: "Video consultation in 2 minutes. $29-49 vs $150+ ER visit",
+    iconBackgroundColor: "pink",
+    isComingSoon: true,
   },
   {
     icon: Appointment,
     title: "Appointments & Home Visits",
-    description:
-      "Book video consultations and schedule home veterinary visits.",
+    description: "Book video consultations and schedule home veterinary visits",
     isComingSoon: true,
     iconBackgroundColor: "purple",
   },

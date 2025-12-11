@@ -8,35 +8,38 @@ import { SectionHeader, SectionWrapper } from "@/components/ui";
 interface Testimonial {
   quote: string;
   name: string;
-  role: string;
-  initial: string;
-  rating: number;
+  petName?: string;
+  petBreed?: string;
+  avatar?: string;
+  clinic?: string;
+  rating?: number;
+  verifiedPurchase?: boolean;
+  isProfessional?: boolean;
 }
 
 const testimonials: Testimonial[] = [
   {
-    quote:
-      "The AI scanner gave me peace of mind when I noticed something on my dog's skin. Within seconds, I knew it wasn't serious and got care tips.",
     name: "Sarah M.",
-    role: "Dog Owner",
-    initial: "S",
+    petName: "Luna (British Shorthair, 4yrs)",
+    avatar: "/testimonials/sarah.jpg",
+    quote:
+      "Borzolini's AI detected early kidney markers 6 months before my vet did. The bloodwork confirmed it. This app saved Luna's life.",
     rating: 5,
+    verifiedPurchase: true,
   },
   {
-    quote:
-      "Finding a specialized vet used to take hours. Now I can filter by exactly what my cat needs and book in minutes.",
     name: "James K.",
-    role: "Cat Owner",
-    initial: "J",
+    petName: "Oliver (Persian, 2yrs)",
+    quote:
+      "My cat ate a lily plant at 11 PM. Borzolini said 'RUSH TO VET NOW' and connected me to an emergency vet in 2 minutes. $29 call saved me a $2,000 ER visit.",
     rating: 5,
   },
   {
+    name: "Dr. Emily Chen, DVM",
+    clinic: "Pedo Vet Clinic",
     quote:
-      "As a new pet parent, the care library and training guides have been invaluable. Everything I need is in one place.",
-    name: "Maria L.",
-    role: "First-time Pet Owner",
-    initial: "M",
-    rating: 5,
+      "I recommend Borzolini to all my clients. The AI catches things between visits that I would miss. It's like having a health monitor at home.",
+    isProfessional: true,
   },
 ];
 
@@ -82,7 +85,7 @@ export function Testimonials() {
           <motion.div
             key={index}
             variants={itemVariants}
-            className="rounded-2xl border border-slate-800 bg-[#1f1f26] p-6 transition-all hover:border-slate-700"
+            className={`rounded-2xl border ${!testimonial?.isProfessional ? "border-slate-800" : "border-[#9c5cf6]"} bg-[#1f1f26] p-6 transition-all hover:border-slate-700`}
           >
             {/* Quote Icon */}
             <Quote className="mb-4 h-8 w-8 text-[#9c5cf6]/30" />
@@ -98,7 +101,7 @@ export function Testimonials() {
                 {/* Avatar */}
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-linear-to-br from-[#9c5cf6]/30 to-[#9c5cf6]/10">
                   <span className="text-sm font-medium text-white">
-                    {testimonial.initial}
+                    {testimonial.name?.[0]}
                   </span>
                 </div>
 
@@ -107,19 +110,25 @@ export function Testimonials() {
                   <p className="text-sm font-medium text-white">
                     {testimonial.name}
                   </p>
-                  <p className="text-xs text-slate-500">{testimonial.role}</p>
+                  <p className="text-xs text-slate-500">
+                    {testimonial.petName ?? testimonial.clinic}
+                  </p>
                 </div>
               </div>
 
               {/* Star Rating */}
-              <div className="flex">
-                {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star
-                    key={i}
-                    className="h-4 w-4 fill-amber-400 text-amber-400"
-                  />
-                ))}
-              </div>
+              {testimonial.rating && (
+                <div className="flex">
+                  {Array.from({ length: testimonial.rating ?? 0 }).map(
+                    (_, i) => (
+                      <Star
+                        key={i}
+                        className="h-4 w-4 fill-amber-400 text-amber-400"
+                      />
+                    )
+                  )}
+                </div>
+              )}
             </div>
           </motion.div>
         ))}

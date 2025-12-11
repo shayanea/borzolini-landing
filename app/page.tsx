@@ -5,6 +5,8 @@ import {
   Features,
   FinalCTA,
   Hero,
+  HowItWorks,
+  PricingSection,
   Testimonials,
   VetFinder,
 } from "@/components/sections";
@@ -81,10 +83,12 @@ export default function Home() {
       <Hero />
       <CompanionJourney />
       <Features />
+      <HowItWorks />
       <AIScanner />
       <VetFinder />
       <ComingSoon />
       <Testimonials />
+      <PricingSection />
       <FinalCTA />
     </main>
   );

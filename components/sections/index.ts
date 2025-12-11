@@ -4,5 +4,7 @@ export * from "./companion-journey/companion-journey";
 export * from "./features/features";
 export * from "./final-cta/final-cta";
 export * from "./hero/hero";
+export * from "./how-it-works/how-it-works";
+export * from "./pricing/pricing";
 export * from "./testimonials/testimonials";
 export * from "./vet-finder/vet-finder";
