@@ -13,6 +13,7 @@ const VetMap = dynamic(() => import("./components/vet-map"), {
 export function VetFinder() {
   return (
     <SectionWrapper
+      sectionId="find-vets"
       maxWidth="6xl"
       backdrop={
         <div className="absolute inset-0 bg-linear-to-b from-[#17171c] via-[#1a1a21] to-[#17171c]" />

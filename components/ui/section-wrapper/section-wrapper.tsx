@@ -17,9 +17,11 @@ export function SectionWrapper({
   backdrop,
   customClassName,
   maxWidth = "7xl",
+  sectionId,
 }: SectionWrapperProps) {
   return (
     <section
+      id={sectionId}
       className={cn("relative px-6 py-24 sm:px-6 lg:px-8", customClassName)}
     >
       {backdrop && (

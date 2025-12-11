@@ -111,7 +111,7 @@ const itemVariants = {
 
 export function Features() {
   return (
-    <SectionWrapper>
+    <SectionWrapper sectionId="features">
       <SectionHeader
         label="Features"
         title="Everything your pet needs"

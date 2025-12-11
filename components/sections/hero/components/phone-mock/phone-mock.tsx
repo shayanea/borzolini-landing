@@ -1,3 +1,5 @@
+import * as motion from "framer-motion/client";
+
 import {
   ClinicWidget,
   HealthCheckWidget,
@@ -9,7 +11,12 @@ import {
 
 const PhoneMock = () => {
   return (
-    <div className="relative flex flex-col items-center gap-6">
+    <motion.div
+      className="relative flex flex-col items-center gap-6"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       {/* Top Right Card - Health Check */}
       <HealthCheckWidget />
 
@@ -30,7 +37,7 @@ const PhoneMock = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface MobileNavigationProps {
   setIsOpen: (isOpen: boolean) => void;
   navItems: { label: string; href: string }[];
@@ -9,6 +7,19 @@ export const MobileNavigation = ({
   setIsOpen,
   navItems,
 }: MobileNavigationProps) => {
+  const handleClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    e.preventDefault();
+    const targetId = href.replace("#", "");
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      setIsOpen(false);
+    }
+  };
+
   return (
     <nav
       id="mobile-navigation"
@@ -17,14 +28,14 @@ export const MobileNavigation = ({
     >
       <div className="flex flex-col gap-4">
         {navItems.map((item) => (
-          <Link
+          <a
             key={item.href}
             href={item.href}
-            className="text-sm text-gray-300 transition-colors duration-200 hover:text-white"
-            onClick={() => setIsOpen(false)}
+            onClick={(e) => handleClick(e, item.href)}
+            className="cursor-pointer text-sm text-gray-300 transition-colors duration-200 hover:text-white"
           >
             {item.label}
-          </Link>
+          </a>
         ))}
         <div className="border-t border-gray-800 pt-4">
           <div className="flex flex-col gap-2">

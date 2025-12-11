@@ -3,13 +3,14 @@
 import * as motion from "framer-motion/client";
 
 import { Eye, Quality, Stool } from "@/assets/icons";
+import { MockHeader, MockResult } from "./components";
 
 import { SectionWrapper } from "@/components/ui";
-import { MockHeader, MockResult } from "./components";
 
 export function AIScanner() {
   return (
     <SectionWrapper
+      sectionId="ai-scanner"
       maxWidth="6xl"
       backdrop={
         <div className="pointer-events-none absolute top-1/2 right-0 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-[#9c5cf6]/5 blur-[100px]" />

@@ -1,8 +1,9 @@
 "use client";
 
-import { getIconGradient } from "@/lib/constants/icon-colors";
-import type { IconBackgroundColor } from "@/lib/types/section";
 import type { FC, SVGProps } from "react";
+
+import type { IconBackgroundColor } from "@/lib/types/section";
+import { getIconGradient } from "@/lib/constants/icon-colors";
 
 interface FeatureCardProps {
   icon: FC<SVGProps<SVGSVGElement>> | null;
@@ -28,7 +29,7 @@ export function FeatureCard({
 }: FeatureCardProps) {
   return (
     <div
-      className={`group relative flex flex-col rounded-2xl bg-[#202026] p-6 transition-all duration-300 ${
+      className={`group relative flex h-full flex-col rounded-2xl bg-[#202026] p-6 transition-all duration-300 ${
         isHighlighted
           ? "border border-[#9c5cf6]/40"
           : "border border-slate-800 hover:border-slate-700"

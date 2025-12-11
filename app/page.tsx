@@ -1,6 +1,5 @@
 import {
   AIScanner,
-  ComingSoon,
   CompanionJourney,
   Features,
   FinalCTA,
@@ -86,7 +85,6 @@ export default function Home() {
       <HowItWorks />
       <AIScanner />
       <VetFinder />
-      <ComingSoon />
       <Testimonials />
       <PricingSection />
       <FinalCTA />

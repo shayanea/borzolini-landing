@@ -57,7 +57,7 @@ const itemVariants = {
 
 export function HowItWorks() {
   return (
-    <SectionWrapper>
+    <SectionWrapper sectionId="how-it-works">
       <SectionHeader
         title="How Borzolini saves lives"
         subtitle="From panic to peace in 3 steps"
