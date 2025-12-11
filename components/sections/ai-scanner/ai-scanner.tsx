@@ -5,6 +5,7 @@ import * as motion from "framer-motion/client";
 import { Eye, Quality, Stool } from "@/assets/icons";
 
 import { SectionWrapper } from "@/components/ui";
+import { MockHeader, MockResult } from "./components";
 
 export function AIScanner() {
   return (
@@ -33,40 +34,8 @@ export function AIScanner() {
 
                 {/* Screen Content - Poop Scan Result */}
                 <div className="flex h-full flex-col px-4 pt-12">
-                  {/* Header */}
-                  <div className="mb-4 flex items-center justify-between">
-                    <span className="font-medium text-white">
-                      AI Stool Scanner
-                    </span>
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500/20">
-                      <span className="text-xl">💩</span>
-                    </div>
-                  </div>
-
-                  {/* Scan Result */}
-                  <div className="mb-4 rounded-xl bg-[#1f1f26] p-4">
-                    <div className="mb-3 flex items-center gap-3">
-                      <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500/20">
-                        <span className="text-lg">⚠️</span>
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium text-white">
-                          ⚠️ Blood detected in stool
-                        </p>
-                        <p className="text-xs text-red-400">Urgency: HIGH</p>
-                      </div>
-                    </div>
-
-                    {/* Action Buttons */}
-                    <div className="space-y-2">
-                      <button className="w-full rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white hover:bg-red-700">
-                        Connect to Vet NOW
-                      </button>
-                      <button className="w-full rounded-lg border border-slate-600 px-4 py-2 text-sm font-medium text-slate-300 hover:border-slate-500">
-                        Learn about possible causes
-                      </button>
-                    </div>
-                  </div>
+                  <MockHeader />
+                  <MockResult />
                 </div>
               </div>
             </div>
