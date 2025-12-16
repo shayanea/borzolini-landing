@@ -12,12 +12,12 @@ export function StepCard({ icon, title, description }: StepCardProps) {
   return (
     <div className="group relative flex flex-col items-center text-center">
       {/* Icon */}
-      <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#202026] text-4xl transition-all duration-300 group-hover:bg-[#9c5cf6]/10">
+      <div className="group-hover:bg-primary-500/10 text-primary-500 mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#202026] text-4xl transition-all duration-300">
         {icon}
       </div>
 
       {/* Title */}
-      <h3 className="mb-4 text-xl font-bold text-white group-hover:text-[#9c5cf6]">
+      <h3 className="group-hover:text-primary-500 mb-4 text-xl font-bold text-white">
         {title}
       </h3>
 

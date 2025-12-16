@@ -1,8 +1,8 @@
 import { Android, iOS } from "@/assets/icons";
 
 import { Button } from "@/components/ui/button/button";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -52,7 +52,7 @@ const LeftContent = () => {
         <h1 className="mb-6 text-5xl leading-tight font-bold text-white sm:text-6xl lg:text-6xl">
           &quot;Is your pet okay right now?&quot;{" "}
         </h1>
-        <h2 className="mb-6 bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-3xl text-transparent">
+        <h2 className="from-primary-300 to-primary-600 mb-6 bg-linear-to-r bg-clip-text text-3xl text-transparent">
           Get AI-powered answers in 30 seconds — <br />
           before symptoms become emergencies.
         </h2>

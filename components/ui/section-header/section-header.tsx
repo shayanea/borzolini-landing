@@ -1,8 +1,9 @@
 "use client";
 
+import * as motion from "framer-motion/client";
+
 import type { SectionHeaderProps } from "@/lib/types/section";
 import { cn } from "@/lib/utils/cn";
-import * as motion from "framer-motion/client";
 
 const titleSizeClasses = {
   sm: "text-xl sm:text-2xl lg:text-3xl",
@@ -55,7 +56,7 @@ export function SectionHeader({
       {label && (
         <motion.p
           variants={itemVariants}
-          className="mb-4 text-sm font-medium tracking-wider text-[#9c5cf6] uppercase"
+          className="text-primary-500 mb-4 text-sm font-medium tracking-wider uppercase"
         >
           {label}
         </motion.p>

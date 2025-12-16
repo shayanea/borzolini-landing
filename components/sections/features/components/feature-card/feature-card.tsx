@@ -2,8 +2,8 @@
 
 import type { FC, SVGProps } from "react";
 
-import type { IconBackgroundColor } from "@/lib/types/section";
 import { getIconGradient } from "@/lib/constants/icon-colors";
+import type { IconBackgroundColor } from "@/lib/types/section";
 
 interface FeatureCardProps {
   icon: FC<SVGProps<SVGSVGElement>> | null;
@@ -31,13 +31,13 @@ export function FeatureCard({
     <div
       className={`group relative flex h-full flex-col rounded-2xl bg-[#202026] p-6 transition-all duration-300 ${
         isHighlighted
-          ? "border border-[#9c5cf6]/40"
+          ? "border-primary-500/40 border"
           : "border border-slate-800 hover:border-slate-700"
       }`}
     >
       {/* Coming Soon Tag */}
       {isComingSoon && (
-        <div className="absolute top-4 right-4 rounded-full border border-[#9c5cf6] bg-[#9c5cf6]/10 px-3 py-1 text-[9px] font-medium text-[#9c5cf6] uppercase">
+        <div className="border-primary-500 bg-primary-500/10 text-primary-500 absolute top-4 right-4 rounded-full border px-3 py-1 text-[9px] font-medium uppercase">
           Coming Soon
         </div>
       )}
@@ -52,7 +52,7 @@ export function FeatureCard({
       </div>
 
       {/* Title */}
-      <h3 className="mb-2 text-lg font-bold text-white group-hover:text-[#9c5cf6]">
+      <h3 className="group-hover:text-primary-500 mb-2 text-lg font-bold text-white">
         {title}
       </h3>
 

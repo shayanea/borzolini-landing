@@ -15,7 +15,7 @@ const rightSlideVariants = {
 export const HealthCheckWidget = () => {
   return (
     <motion.div
-      className="absolute top-40 left-20 z-20"
+      className="absolute top-30 left-10 z-20"
       variants={rightSlideVariants}
       initial="hidden"
       animate="visible"
@@ -54,8 +54,8 @@ export const ClinicWidget = () => {
       animate="visible"
     >
       <div className="flex items-center gap-3 rounded-2xl border border-slate-800 bg-[#1f1f26] p-4 shadow-xl">
-        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#9c5cf6]/20">
-          <div className="h-3 w-3 rounded-full bg-[#9c5cf6]" />
+        <div className="bg-primary-500/20 flex h-10 w-10 items-center justify-center rounded-full">
+          <div className="bg-primary-500 h-3 w-3 rounded-full" />
         </div>
         <div>
           <p className="text-sm text-white">3 clinics nearby</p>

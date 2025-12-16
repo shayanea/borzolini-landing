@@ -3,13 +3,24 @@
 :root {
   --background: #18181c;
   --foreground: #ffffff;
-  --primary: #9c5cf6;
+  --primary: #d5992a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-primary-50: #fbf5ea;
+  --color-primary-100: #f7ebd4;
+  --color-primary-200: #eed6aa;
+  --color-primary-300: #e6c27f;
+  --color-primary-400: #ddae55;
+  --color-primary-500: #d5992a;
+  --color-primary-600: #aa7b22;
+  --color-primary-700: #805c19;
+  --color-primary-800: #553d11;
+  --color-primary-900: #2b1f08;
+  --color-primary-950: #1e1506;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

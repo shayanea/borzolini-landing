@@ -2,8 +2,8 @@ export const MockWidgets = () => {
   return (
     <div className="grid grid-cols-2 gap-3">
       <div className="flex flex-col items-center justify-center gap-2 rounded-xl bg-[#1f1f26] p-4">
-        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#9c5cf6]/20">
-          <div className="h-4 w-4 rounded bg-[#9c5cf6]"></div>
+        <div className="bg-primary-500/20 flex h-10 w-10 items-center justify-center rounded-full">
+          <div className="bg-primary-500 h-4 w-4 rounded"></div>
         </div>
         <p className="text-xs text-slate-400">AI Scanner</p>
       </div>

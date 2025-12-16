@@ -15,19 +15,19 @@ interface Step {
 
 const steps: Step[] = [
   {
-    icon: <Camera className="h-8 w-8" fill="#9c5cf6" />,
+    icon: <Camera className="h-8 w-8" fill="var(--color-primary)" />,
     title: "Scan Your Pet",
     description:
       "Take a photo of your cat's eyes, coat, poop, or urine. AI analyzes in 10 seconds.",
   },
   {
-    icon: <Analyzed className="h-8 w-8" fill="#9c5cf6" />,
+    icon: <Analyzed className="h-8 w-8" fill="var(--color-primary)" />,
     title: "Get Urgency Score",
     description:
       "Low priority? Monitor at home. High priority? Connect to vet instantly.",
   },
   {
-    icon: <Ambulance className="h-8 w-8" fill="#9c5cf6" />,
+    icon: <Ambulance className="h-8 w-8" fill="var(--color-primary)" />,
     title: "Take Action",
     description:
       "$29 video consultation or book in-person visit. AI provides vet with full health history.",
