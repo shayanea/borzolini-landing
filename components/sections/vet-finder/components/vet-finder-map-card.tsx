@@ -1,6 +1,7 @@
 "use client";
 
 import * as motion from "framer-motion/client";
+
 import dynamic from "next/dynamic";
 import type { ReactElement } from "react";
 

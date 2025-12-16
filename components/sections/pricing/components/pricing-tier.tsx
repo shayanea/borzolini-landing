@@ -1,9 +1,13 @@
 "use client";
 
-import { Button } from "@/components/ui";
 import * as motion from "framer-motion/client";
-import { Check, X } from "lucide-react";
+
 import type { FC, SVGProps } from "react";
+
+import { Button } from "@/components/ui";
+import CancelIcon from "@/assets/icons/cancel.png";
+import CheckIcon from "@/assets/icons/check.png";
+import Image from "next/image";
 
 interface FeatureItem {
   icon: FC<SVGProps<SVGSVGElement>>;
@@ -33,15 +37,15 @@ export const PricingTier: FC<PricingTierProps> = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.5 }}
-      className={`relative rounded-2xl border p-8 transition-all hover:scale-105 ${
+      className={`relative flex h-full flex-col rounded-2xl border p-8 transition-all hover:scale-105 ${
         highlighted
-          ? "border-[#9c5cf6] bg-linear-to-b from-[#9c5cf6]/10 to-[#1f1f26] shadow-lg shadow-[#9c5cf6]/20"
+          ? "border-primary-500 from-primary-500/10 shadow-primary-500/20 bg-linear-to-b to-[#1f1f26] shadow-lg"
           : "border-slate-800 bg-[#1f1f26] hover:border-slate-700"
       }`}
     >
       {/* Badge */}
       <div className="mb-6">
-        <span className="inline-block rounded-full bg-[#9c5cf6]/20 px-3 py-1 text-sm font-medium text-[#9c5cf6]">
+        <span className="bg-primary-500/20 text-primary-500 inline-block rounded-full px-3 py-1 text-sm font-medium">
           {badge}
         </span>
       </div>
@@ -70,9 +74,21 @@ export const PricingTier: FC<PricingTierProps> = ({
           return (
             <div key={index} className="flex items-center gap-3">
               {featureStr.startsWith("✅") ? (
-                <Check className="h-5 w-5 text-green-400" />
+                <Image
+                  src={CheckIcon}
+                  alt="Included"
+                  width={20}
+                  height={20}
+                  className="h-5 w-5"
+                />
               ) : featureStr.startsWith("❌") ? (
-                <X className="h-5 w-5 text-red-400" />
+                <Image
+                  src={CancelIcon}
+                  alt="Not included"
+                  width={20}
+                  height={20}
+                  className="h-5 w-5"
+                />
               ) : (
                 <span className="text-lg">•</span>
               )}
@@ -88,7 +104,7 @@ export const PricingTier: FC<PricingTierProps> = ({
       <Button
         variant={highlighted ? "primary" : "secondary"}
         size="lg"
-        className="w-full"
+        className="mt-auto w-full"
         onClick={onCtaClick}
       >
         {ctaText}

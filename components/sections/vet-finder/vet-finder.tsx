@@ -1,8 +1,9 @@
 "use client";
 
+import { VetFinderContent, VetFinderMapCard } from "./components";
+
 import { SectionWrapper } from "@/components/ui";
 import type { ReactElement } from "react";
-import { VetFinderContent, VetFinderMapCard } from "./components";
 
 export function VetFinder(): ReactElement {
   return (

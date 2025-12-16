@@ -1,6 +1,7 @@
 "use client";
 
 import * as motion from "framer-motion/client";
+
 import type { ReactElement } from "react";
 
 export function VetFinderContent(): ReactElement {
