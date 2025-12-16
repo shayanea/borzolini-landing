@@ -13,7 +13,13 @@ export const DownloadButtons = () => {
 
       {/* Android Button */}
       <button className="hidden items-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-medium text-gray-900 transition-colors duration-200 hover:bg-gray-100 sm:flex">
-        <Image src={Android} alt="Android" width={20} height={20} />
+        <Image
+          src={Android}
+          alt="Android"
+          width={20}
+          height={20}
+          className="invert"
+        />
         Android
       </button>
     </>

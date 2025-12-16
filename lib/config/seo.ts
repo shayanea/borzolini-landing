@@ -30,7 +30,7 @@ export function generateMetadata({
     : seoSiteConfig.name;
   const metaDescription = description || seoSiteConfig.description;
   const metaImage = image || `${seoSiteConfig.url}${seoSiteConfig.ogImage}`;
-  const metaKeywords = keywords || seoSiteConfig.keywords;
+  const metaKeywords = keywords || [...seoSiteConfig.keywords];
 
   return {
     title: metaTitle,

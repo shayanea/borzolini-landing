@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 interface FooterProps {
   brandName?: string;
   brandInitial?: string;
@@ -13,18 +15,18 @@ export function Footer({ brandName = "Borzolini" }: FooterProps) {
           © 2025 {brandName}. All rights reserved.
         </p>
         <div className="flex items-center gap-6">
-          <a
-            href="#privacy"
+          <Link
+            href="/privacy-policy"
             className="text-sm text-slate-500 transition-colors hover:text-white"
           >
             Privacy Policy
-          </a>
-          <a
-            href="#terms"
+          </Link>
+          <Link
+            href="/terms"
             className="text-sm text-slate-500 transition-colors hover:text-white"
           >
             Terms of Service
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
