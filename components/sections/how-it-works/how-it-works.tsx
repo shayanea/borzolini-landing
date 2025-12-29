@@ -18,19 +18,19 @@ const steps: Step[] = [
     icon: <Camera className="h-8 w-8" fill="var(--color-primary)" />,
     title: "Scan Your Pet",
     description:
-      "Take a photo of your cat's eyes, coat, poop, or urine. AI analyzes in 10 seconds.",
+      "Take a photo of your pet's skin, eyes, coat, or stool. AI analyzes in seconds.",
   },
   {
     icon: <Analyzed className="h-8 w-8" fill="var(--color-primary)" />,
-    title: "Get Urgency Score",
+    title: "Get AI Insights",
     description:
-      "Low priority? Monitor at home. High priority? Connect to vet instantly.",
+      "Receive detailed analysis with confidence scores and health recommendations.",
   },
   {
     icon: <Ambulance className="h-8 w-8" fill="var(--color-primary)" />,
-    title: "Take Action",
+    title: "Track & Monitor",
     description:
-      "$29 video consultation or book in-person visit. AI provides vet with full health history.",
+      "Monitor weight trends, track training progress, and find trusted vets nearby when needed.",
   },
 ];
 
@@ -59,8 +59,8 @@ export function HowItWorks() {
   return (
     <SectionWrapper sectionId="how-it-works">
       <SectionHeader
-        title="How Borzi saves lives"
-        subtitle="From panic to peace in 3 steps"
+        title="How Borzi works"
+        subtitle="Track your pet's health in 3 simple steps"
       />
 
       {/* Steps Grid */}

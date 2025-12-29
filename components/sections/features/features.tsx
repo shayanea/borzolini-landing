@@ -12,12 +12,12 @@ import {
   Telephone,
   Tracking,
 } from "@/assets/icons";
-import type { FC, SVGProps } from "react";
 import { SectionHeader, SectionWrapper } from "@/components/ui";
+import type { FC, SVGProps } from "react";
 
-import { FeatureCard } from "./components";
-import type { IconBackgroundColor } from "@/lib/types/section";
 import { getIconColorConfig } from "@/lib/constants/icon-colors";
+import type { IconBackgroundColor } from "@/lib/types/section";
+import { FeatureCard } from "./components";
 
 interface Feature {
   icon: FC<SVGProps<SVGSVGElement>> | null;
@@ -32,57 +32,57 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: Scan,
-    title: "Emergency AI Triage",
+    title: "AI Health Scanning",
     description:
-      "Ate something toxic? Get urgency score + vet connection in 30 seconds",
+      "Snap a photo of skin issues, wounds, or unusual symptoms and get instant AI analysis",
     isHighlighted: true,
     iconBackgroundColor: "purple",
   },
   {
     icon: Camera,
     title: "Feces Analysis",
-    description:
-      "Photo-based stool analysis. Free vs competitors' $30 test kits",
+    description: "Photo-based stool analysis to monitor digestive health",
 
     iconBackgroundColor: "red",
   },
   {
     icon: Tracking,
-    title: "Medication Tracker",
-    description: "Know if your pet's medication is actually working",
+    title: "Weight Tracking",
+    description:
+      "Monitor your pet's weight trends with beautiful charts and insights",
     iconBackgroundColor: "green",
   },
   {
     icon: HealthScore,
-    title: "Pet Health Score",
+    title: "Training Programs",
     description:
-      "Gamified health tracking. See if your pet is healthier than others",
+      "Daily exercises and progress tracking to train your pet effectively",
     iconBackgroundColor: "yellow",
   },
   {
     icon: Genetic,
-    title: "Breed-Specific AI",
+    title: "Breed Encyclopedia",
     description:
-      "Trained on British Shorthair patterns. Predicts issues before symptoms",
+      "50+ breeds with detailed health info, care guides, and breed-specific insights",
     iconBackgroundColor: "blue",
   },
   {
     icon: Product,
-    title: "Smart Product Recommendations",
-    description: "AI suggests supplements based on your pet's scans",
+    title: "Toxicity Checker",
+    description: "Search foods and plants to see if they're safe for your pet",
     iconBackgroundColor: "teal",
   },
   {
     icon: Telephone,
-    title: "Instant Vet Access",
-    description: "Video consultation in 2 minutes. $29-49 vs $150+ ER visit",
+    title: "Vet Finder",
+    description: "Find nearby veterinary clinics with ratings and contact info",
     iconBackgroundColor: "pink",
-    isComingSoon: true,
   },
   {
     icon: Appointment,
-    title: "Appointments & Home Visits",
-    description: "Book video consultations and schedule home veterinary visits",
+    title: "Advanced Training & Analytics",
+    description:
+      "Behavioral modification programs and advanced health analytics",
     isComingSoon: true,
     iconBackgroundColor: "purple",
   },

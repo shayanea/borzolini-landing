@@ -20,7 +20,7 @@ const testimonials: Testimonial[] = [
     name: "James K.",
     petName: "Oliver (Persian, 2yrs)",
     quote:
-      "My cat ate a lily plant at 11 PM. Borzi said 'RUSH TO VET NOW' and connected me to an emergency vet in 2 minutes. $29 call saved me a $2,000 ER visit.",
+      "Borzi's weight tracking helped me notice Oliver was losing weight gradually. Turned out to be early diabetes. Caught it before it became serious!",
     rating: 5,
   },
   {

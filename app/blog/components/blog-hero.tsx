@@ -10,7 +10,7 @@ export function BlogHero() {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="pointer-events-none absolute top-1/2 left-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#9c5cf6]/10 blur-[120px]"
+        className="pointer-events-none absolute top-1/2 left-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#d5992a]/10 blur-[120px]"
       />
 
       <div className="relative mx-auto max-w-4xl text-center">
@@ -19,7 +19,7 @@ export function BlogHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2 text-sm font-medium text-purple-300">
+          <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#d5992a]/30 bg-[#d5992a]/10 px-4 py-2 text-sm font-medium text-[#d5992a]">
             Weekly Updates
           </span>
 

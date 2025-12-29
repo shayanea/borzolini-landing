@@ -33,17 +33,17 @@ const LeftContent = () => {
       initial="hidden"
       animate="visible"
     >
-      {/* Urgency Badge */}
+      {/* AI Badge */}
       <motion.div
-        className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-2 backdrop-blur-sm"
+        className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2 backdrop-blur-sm"
         variants={itemVariants}
       >
         <span className="relative flex h-2 w-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
-          <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple-400 opacity-75" />
+          <span className="relative inline-flex h-2 w-2 rounded-full bg-purple-500" />
         </span>
-        <span className="text-sm font-medium text-red-200">
-          Emergency vet access 24/7
+        <span className="text-sm font-medium text-purple-200">
+          AI-Powered Health Insights
         </span>
       </motion.div>
 
@@ -53,8 +53,8 @@ const LeftContent = () => {
           &quot;Is your pet okay right now?&quot;{" "}
         </h1>
         <h2 className="from-primary-300 to-primary-600 mb-6 bg-linear-to-r bg-clip-text text-3xl text-transparent">
-          Get AI-powered answers in 30 seconds — <br />
-          before symptoms become emergencies.
+          Get AI-powered health insights in seconds — <br />
+          track, monitor, and care for your pet like a pro.
         </h2>
       </motion.div>
 
@@ -63,8 +63,9 @@ const LeftContent = () => {
         className="mb-8 max-w-lg text-base text-gray-400"
         variants={itemVariants}
       >
-        British Shorthair owners trust Borzi to detect kidney issues, dental
-        problems, and respiratory concerns months before their vet visit.
+        Join thousands of pet owners who use Borzi to track weight, monitor
+        health changes, and get AI-powered insights. Trusted by British
+        Shorthair owners and pet lovers worldwide.
       </motion.p>
 
       {/* CTA Buttons */}

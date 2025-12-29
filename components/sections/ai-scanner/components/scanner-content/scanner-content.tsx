@@ -105,7 +105,7 @@ function ScannerComparisonTable(): ReactElement {
             Borzi (all features)
           </span>
           <span className="text-primary-500 text-sm font-medium">
-            FREE or $9.99/mo
+            FREE or $4.99/mo
           </span>
         </div>
       </div>

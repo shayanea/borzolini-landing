@@ -191,7 +191,7 @@ function VetFinderStats(): ReactElement {
   return (
     <div className="grid grid-cols-3 gap-4">
       <VetStatCard value="500+" label="Partner Clinics" />
-      <VetStatCard value="24/7" label="Emergency Access" />
+      <VetStatCard value="10K+" label="Verified Reviews" />
       <VetStatCard value="4.8" label="Avg. Rating" />
     </div>
   );

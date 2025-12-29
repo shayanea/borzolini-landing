@@ -1,6 +1,5 @@
 "use client";
 
-import { Lightning, Pill, Pulse, Telephone } from "@/assets/icons";
 import * as motion from "framer-motion/client";
 
 import { PricingTier } from "./pricing-tier";
@@ -27,19 +26,21 @@ export function PricingGrid() {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
-      className="grid grid-cols-1 gap-8 lg:grid-cols-3"
+      className="mx-auto grid max-w-4xl grid-cols-1 gap-8 lg:grid-cols-2"
     >
       {/* Free Tier */}
       <PricingTier
         badge="Free Forever"
         price="$0"
         features={[
-          "✅ 5 AI scans/month",
-          "✅ Basic breed info",
-          "✅ Medication reminders",
-          "✅ Community access",
-          "❌ Poop/urine scanning",
-          "❌ Health Score tracking",
+          "✅ 2 AI health scans/month",
+          "✅ Weight tracking",
+          "✅ Basic training programs",
+          "✅ Breed encyclopedia (50+ breeds)",
+          "✅ Toxicity checker",
+          "✅ Vet finder",
+          "❌ Unlimited AI scans",
+          "❌ Feces analysis",
         ]}
         ctaText="Get Started"
         onCtaClick={() => handleCtaClick("free")}
@@ -48,32 +49,19 @@ export function PricingGrid() {
       {/* Premium Tier */}
       <PricingTier
         badge="Most Popular"
-        price="$9.99/month"
+        price="$4.99/month"
         features={[
-          "✅ Unlimited AI scans",
-          "✅ Poop + urine analysis",
-          "✅ Pet Health Score",
-          "✅ Medication effectiveness tracking",
-          "✅ Priority vet chat",
+          "✅ Unlimited AI health scans",
+          "✅ Feces analysis",
+          "✅ Advanced weight analytics",
+          "✅ Advanced training programs",
+          "✅ Priority support",
           "✅ Monthly health reports",
+          "✅ All free features",
         ]}
         ctaText="Start Free Trial"
         highlighted={true}
         onCtaClick={() => handleCtaClick("premium")}
-      />
-
-      {/* Emergency Tier */}
-      <PricingTier
-        badge="Pay-per-use"
-        price="$29-49/call"
-        features={[
-          { icon: Telephone, text: "Emergency vet video call" },
-          { icon: Pulse, text: "Available 24/7" },
-          { icon: Lightning, text: "Response in 2 minutes" },
-          { icon: Pill, text: "Prescription if needed" },
-        ]}
-        ctaText="Talk to Vet Now"
-        onCtaClick={() => handleCtaClick("emergency")}
       />
     </motion.div>
   );

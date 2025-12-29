@@ -11,11 +11,17 @@ export const MobileNavigation = ({
     e: React.MouseEvent<HTMLAnchorElement>,
     href: string
   ) => {
-    e.preventDefault();
-    const targetId = href.replace("#", "");
-    const element = document.getElementById(targetId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    // Only handle smooth scrolling for anchor links (starting with #)
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      const targetId = href.replace("#", "");
+      const element = document.getElementById(targetId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        setIsOpen(false);
+      }
+    } else {
+      // For regular page links like /blog, close menu and let navigation happen
       setIsOpen(false);
     }
   };
