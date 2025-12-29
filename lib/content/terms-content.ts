@@ -8,12 +8,11 @@ export const termsContent: LegalSection[] = [
   {
     title: "1. Acceptance of Terms",
     content:
-      'By accessing and using the Borzolini website and platform ("Service"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by these terms, please do not use this Service. Your continued use of the Service constitutes acceptance of these Terms and Conditions.',
+      'By accessing and using the Borzi website and platform ("Service"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by these terms, please do not use this Service. Your continued use of the Service constitutes acceptance of these Terms and Conditions.',
   },
   {
     title: "2. Description of Service",
-    content:
-      "Borzolini is an AI-powered pet healthcare platform that provides:",
+    content: "Borzi is an AI-powered pet healthcare platform that provides:",
     items: [
       "Pet appointment scheduling and management for in-person and home visits",
       "Video and voice telemedicine consultation services with licensed veterinarians",
@@ -101,11 +100,11 @@ export const termsContent: LegalSection[] = [
   {
     title: "8. Payment and Transactions",
     content:
-      "Currently, Borzolini operates as a booking and communication platform. Payment terms include:",
+      "Currently, Borzi operates as a booking and communication platform. Payment terms include:",
     items: [
       "Payment arrangements are handled directly between pet owners and veterinary clinics",
       "Pricing, payment methods, and terms are determined by individual clinics",
-      "Borzolini is not responsible for payment disputes between users and clinics",
+      "Borzi is not responsible for payment disputes between users and clinics",
       "Future platform features may include integrated payment processing with transparent fee structures",
       "Any commission or subscription fees will be clearly communicated before implementation",
       "Refund policies are determined by individual veterinary providers",
@@ -116,7 +115,7 @@ export const termsContent: LegalSection[] = [
     content:
       "Users may submit reviews, photos, comments, and other content. By submitting content, you:",
     items: [
-      "Grant Borzolini a worldwide, non-exclusive, royalty-free license to use, display, reproduce, and distribute such content",
+      "Grant Borzi a worldwide, non-exclusive, royalty-free license to use, display, reproduce, and distribute such content",
       "Represent and warrant that you own or have permission to share any content you submit",
       "Agree not to submit content that is unlawful, defamatory, obscene, or infringes on others' rights",
       "Understand that we may remove or modify user-generated content at our discretion",
@@ -126,7 +125,7 @@ export const termsContent: LegalSection[] = [
   {
     title: "10. Intellectual Property",
     content:
-      "The Service and its original content, features, design, functionality, and branding are owned by Borzolini and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws. You may not:",
+      "The Service and its original content, features, design, functionality, and branding are owned by Borzi and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws. You may not:",
     items: [
       "Copy, modify, distribute, sell, or lease any part of the Service",
       "Reverse engineer or attempt to extract source code from the Service",
@@ -143,7 +142,7 @@ export const termsContent: LegalSection[] = [
   {
     title: "12. Limitation of Liability",
     content:
-      "TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BORZOLINI, NOR ITS DIRECTORS, EMPLOYEES, PARTNERS, AGENTS, SUPPLIERS, OR AFFILIATES, BE LIABLE FOR:",
+      "TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL Borzi, NOR ITS DIRECTORS, EMPLOYEES, PARTNERS, AGENTS, SUPPLIERS, OR AFFILIATES, BE LIABLE FOR:",
     items: [
       "Any indirect, incidental, special, consequential, or punitive damages",
       "Loss of profits, data, use, goodwill, or other intangible losses",
@@ -170,7 +169,7 @@ export const termsContent: LegalSection[] = [
   {
     title: "14. Indemnification",
     content:
-      "You agree to indemnify, defend, and hold harmless Borzolini and its officers, directors, employees, agents, and affiliates from and against any claims, liabilities, damages, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or related to:",
+      "You agree to indemnify, defend, and hold harmless Borzi and its officers, directors, employees, agents, and affiliates from and against any claims, liabilities, damages, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or related to:",
     items: [
       "Your use or misuse of the Service",
       "Your violation of these Terms and Conditions",
@@ -216,7 +215,7 @@ export const termsContent: LegalSection[] = [
   {
     title: "18. Governing Law and Dispute Resolution",
     content:
-      "These Terms shall be interpreted and governed by the laws of the jurisdiction in which Borzolini operates, without regard to its conflict of law provisions. Any disputes arising from these Terms or use of the Service shall be subject to:",
+      "These Terms shall be interpreted and governed by the laws of the jurisdiction in which Borzi operates, without regard to its conflict of law provisions. Any disputes arising from these Terms or use of the Service shall be subject to:",
     items: [
       "Exclusive jurisdiction of the courts in that jurisdiction",
       "Binding arbitration (if agreed upon by both parties)",
@@ -231,7 +230,7 @@ export const termsContent: LegalSection[] = [
   {
     title: "20. Entire Agreement",
     content:
-      "These Terms and Conditions, together with our Privacy Policy and any other legal notices published on the Service, constitute the entire agreement between you and Borzolini regarding the use of the Service and supersede all prior agreements and understandings.",
+      "These Terms and Conditions, together with our Privacy Policy and any other legal notices published on the Service, constitute the entire agreement between you and Borzi regarding the use of the Service and supersede all prior agreements and understandings.",
   },
   {
     title: "21. Contact Information",
@@ -241,9 +240,9 @@ export const termsContent: LegalSection[] = [
 ];
 
 export const contactInfo = {
-  email: "legal@borzolini.com",
+  email: "legal@borzi.app",
   phone: "+1 (555) 123-4567",
-  address: "Borzolini, Inc., [Your Business Address]",
+  address: "Borzi, Inc., [Your Business Address]",
 };
 
 export const lastUpdated = "December 16, 2025";

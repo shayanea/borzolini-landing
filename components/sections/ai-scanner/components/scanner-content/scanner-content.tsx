@@ -102,7 +102,7 @@ function ScannerComparisonTable(): ReactElement {
 
         <div className="bg-primary-500/10 grid grid-cols-2 gap-4 rounded-lg p-2">
           <span className="text-primary-500 text-sm font-medium">
-            Borzolini (all features)
+            Borzi (all features)
           </span>
           <span className="text-primary-500 text-sm font-medium">
             FREE or $9.99/mo

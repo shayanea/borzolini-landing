@@ -7,7 +7,7 @@ interface FooterProps {
   brandInitial?: string;
 }
 
-export function Footer({ brandName = "Borzolini" }: FooterProps) {
+export function Footer({ brandName = "Borzi" }: FooterProps) {
   return (
     <footer className="border-t border-slate-800 p-6">
       <div className="mx-auto flex max-w-6xl items-center justify-between">

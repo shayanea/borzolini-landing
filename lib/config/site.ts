@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "Borzolini",
+  name: "Borzi",
   description:
     "AI pet health diagnosis & emergency triage in 30 seconds. Cat health monitoring with AI scanner for stool, urine & coat analysis. 24/7 vet access & telehealth services for British Shorthair owners.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://borzolini.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://borzi.app",
   links: {
-    twitter: "https://twitter.com/borzolini",
-    instagram: "https://instagram.com/borzolini",
+    twitter: "https://twitter.com/borzi",
+    instagram: "https://instagram.com/borzi",
   },
   keywords: [
     "AI pet health diagnosis",
@@ -24,6 +24,6 @@ export const siteConfig = {
     "Predictive pet care",
     "Telehealth vets near me",
     "Home veterinary visits",
-    "Borzolini",
+    "Borzi",
   ],
 } as const;

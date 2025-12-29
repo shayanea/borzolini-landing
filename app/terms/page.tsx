@@ -8,9 +8,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Borzolini - AI Pet Healthcare Platform",
+  title: "Terms & Conditions | Borzi - AI Pet Healthcare Platform",
   description:
-    "Read the terms and conditions for using Borzolini's AI-powered pet healthcare platform, including telemedicine services, AI health monitoring, and veterinary care services.",
+    "Read the terms and conditions for using Borzi's AI-powered pet healthcare platform, including telemedicine services, AI health monitoring, and veterinary care services.",
   keywords: [
     "terms and conditions",
     "terms of service",
@@ -20,18 +20,18 @@ export const metadata: Metadata = {
     "telemedicine terms",
   ],
   openGraph: {
-    title: "Terms & Conditions | Borzolini",
+    title: "Terms & Conditions | Borzi",
     description:
-      "Review the terms and conditions for using Borzolini's AI-powered pet healthcare platform and services.",
+      "Review the terms and conditions for using Borzi's AI-powered pet healthcare platform and services.",
     url: `${siteConfig.url}/terms`,
     siteName: siteConfig.name,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Terms & Conditions | Borzolini",
+    title: "Terms & Conditions | Borzi",
     description:
-      "Review the terms and conditions for using Borzolini's pet healthcare platform.",
+      "Review the terms and conditions for using Borzi's pet healthcare platform.",
   },
   robots: {
     index: true,

@@ -8,9 +8,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Borzolini - AI Pet Healthcare Platform",
+  title: "Privacy Policy | Borzi - AI Pet Healthcare Platform",
   description:
-    "Learn how Borzolini collects, uses, and protects your personal information and pet health data. Our commitment to privacy and data security for AI-powered pet healthcare services.",
+    "Learn how Borzi collects, uses, and protects your personal information and pet health data. Our commitment to privacy and data security for AI-powered pet healthcare services.",
   keywords: [
     "privacy policy",
     "data protection",
@@ -20,18 +20,17 @@ export const metadata: Metadata = {
     "veterinary data security",
   ],
   openGraph: {
-    title: "Privacy Policy | Borzolini",
+    title: "Privacy Policy | Borzi",
     description:
-      "Learn how Borzolini protects your privacy and pet health data with industry-leading security practices.",
+      "Learn how Borzi protects your privacy and pet health data with industry-leading security practices.",
     url: `${siteConfig.url}/privacy-policy`,
     siteName: siteConfig.name,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Privacy Policy | Borzolini",
-    description:
-      "Learn how Borzolini protects your privacy and pet health data.",
+    title: "Privacy Policy | Borzi",
+    description: "Learn how Borzi protects your privacy and pet health data.",
   },
   robots: {
     index: true,

@@ -12,7 +12,7 @@ const testimonials: Testimonial[] = [
     petName: "Luna (British Shorthair, 4yrs)",
     avatar: "/testimonials/sarah.jpg",
     quote:
-      "Borzolini's AI detected early kidney markers 6 months before my vet did. The bloodwork confirmed it. This app saved Luna's life.",
+      "Borzi's AI detected early kidney markers 6 months before my vet did. The bloodwork confirmed it. This app saved Luna's life.",
     rating: 5,
     verifiedPurchase: true,
   },
@@ -20,14 +20,14 @@ const testimonials: Testimonial[] = [
     name: "James K.",
     petName: "Oliver (Persian, 2yrs)",
     quote:
-      "My cat ate a lily plant at 11 PM. Borzolini said 'RUSH TO VET NOW' and connected me to an emergency vet in 2 minutes. $29 call saved me a $2,000 ER visit.",
+      "My cat ate a lily plant at 11 PM. Borzi said 'RUSH TO VET NOW' and connected me to an emergency vet in 2 minutes. $29 call saved me a $2,000 ER visit.",
     rating: 5,
   },
   {
     name: "Dr. Emily Chen, DVM",
     clinic: "Pedo Vet Clinic",
     quote:
-      "I recommend Borzolini to all my clients. The AI catches things between visits that I would miss. It's like having a health monitor at home.",
+      "I recommend Borzi to all my clients. The AI catches things between visits that I would miss. It's like having a health monitor at home.",
     isProfessional: true,
   },
 ];

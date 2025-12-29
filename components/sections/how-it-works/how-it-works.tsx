@@ -59,7 +59,7 @@ export function HowItWorks() {
   return (
     <SectionWrapper sectionId="how-it-works">
       <SectionHeader
-        title="How Borzolini saves lives"
+        title="How Borzi saves lives"
         subtitle="From panic to peace in 3 steps"
       />
 

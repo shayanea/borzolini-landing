@@ -48,8 +48,8 @@ export function FinalCTA() {
           viewport={{ once: true }}
           className="mx-auto mb-10 max-w-2xl text-lg text-slate-400"
         >
-          Download Borzolini today and join thousands of pet owners who&apos;ve
-          made caring for their companions simpler.
+          Download Borzi today and join thousands of pet owners who&apos;ve made
+          caring for their companions simpler.
         </motion.p>
 
         {/* Download Buttons */}

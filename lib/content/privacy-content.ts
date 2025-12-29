@@ -19,7 +19,7 @@ export const privacyPolicyContent: LegalSection[] = [
   {
     title: "1. Introduction",
     content:
-      'Borzolini ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our AI-powered pet healthcare platform. By using our website, you consent to the practices described in this policy.',
+      'Borzi ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our AI-powered pet healthcare platform. By using our website, you consent to the practices described in this policy.',
   },
   {
     title: "2. Information We Collect",
@@ -258,9 +258,9 @@ export const privacyPolicyContent: LegalSection[] = [
 ];
 
 export const contactInfo: ContactInfo = {
-  email: "privacy@borzolini.com",
+  email: "privacy@borzi.app",
   phone: "+1 (555) 123-4567",
-  address: "Borzolini, Inc., [Your Business Address]",
+  address: "Borzi, Inc., [Your Business Address]",
 };
 
 export const lastUpdated = "December 16, 2025";

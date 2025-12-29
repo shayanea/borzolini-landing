@@ -21,10 +21,11 @@ const navItems = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "AI Scanner", href: "#ai-scanner" },
   { label: "Find Vets", href: "#find-vets" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export const Navbar = ({
-  brandName = "Borzolini",
+  brandName = "Borzi",
   brandInitial = "B",
 }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);

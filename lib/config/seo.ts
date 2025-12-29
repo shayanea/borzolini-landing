@@ -43,6 +43,10 @@ export function generateMetadata({
     alternates: {
       canonical: "/",
     },
+    icons: {
+      icon: [{ url: "/favicon.ico", sizes: "32x32" }, { url: "/icon.png" }],
+      apple: "/apple-touch-icon.png",
+    },
     openGraph: {
       title: metaTitle,
       description: metaDescription,
@@ -67,8 +71,8 @@ export function generateMetadata({
       title: metaTitle,
       description: metaDescription,
       images: [metaImage],
-      creator: "@borzolini",
-      site: "@borzolini",
+      creator: "@borzi",
+      site: "@borzi",
     },
     robots: {
       index: !noIndex,

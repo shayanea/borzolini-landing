@@ -41,10 +41,10 @@ export function LegalLayout({
           <p className="text-center text-sm text-slate-400">
             For questions or concerns, please contact us at{" "}
             <a
-              href="mailto:legal@borzolini.com"
+              href="mailto:legal@Borzi.app"
               className="text-blue-400 transition-colors hover:text-blue-300"
             >
-              legal@borzolini.com
+              legal@Borzi.app
             </a>
           </p>
         </motion.div>

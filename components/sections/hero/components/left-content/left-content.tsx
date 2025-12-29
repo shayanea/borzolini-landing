@@ -63,7 +63,7 @@ const LeftContent = () => {
         className="mb-8 max-w-lg text-base text-gray-400"
         variants={itemVariants}
       >
-        British Shorthair owners trust Borzolini to detect kidney issues, dental
+        British Shorthair owners trust Borzi to detect kidney issues, dental
         problems, and respiratory concerns months before their vet visit.
       </motion.p>
 

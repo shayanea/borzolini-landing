@@ -61,7 +61,7 @@ Create these image files in `/public`:
 Add to `.env.local`:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://borzolini.com
+NEXT_PUBLIC_SITE_URL=https://borzi.app
 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-verification-code
 NEXT_PUBLIC_YANDEX_VERIFICATION=your-yandex-verification-code
 NEXT_PUBLIC_YAHOO_VERIFICATION=your-yahoo-verification-code
@@ -73,7 +73,7 @@ NEXT_PUBLIC_YAHOO_VERIFICATION=your-yahoo-verification-code
 2. Add your property
 3. Verify ownership using the meta tag method
 4. Add the verification code to `.env.local`
-5. Submit your sitemap: `https://borzolini.com/sitemap.xml`
+5. Submit your sitemap: `https://borzi.app/sitemap.xml`
 
 ### 4. Update Schema Data
 

@@ -1,10 +1,10 @@
-import { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/config/site";
+import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteConfig.name,
-    short_name: "Borzolini",
+    short_name: "Borzi",
     description: siteConfig.description,
     start_url: "/",
     display: "standalone",
