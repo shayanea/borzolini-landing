@@ -1,5 +1,6 @@
 import "./globals.css";
 
+import { FirebaseAnalytics } from "@/components/analytics/firebase-analytics";
 import { Footer, Navbar } from "@/components/ui";
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -29,7 +30,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" href="/icon.png" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#9c5cf6" />
@@ -45,6 +45,7 @@ export default function RootLayout({
       >
         <Navbar brandName="Borzi" brandInitial="B" />
         {children}
+        <FirebaseAnalytics />
         <Footer brandName="Borzi" brandInitial="B" />
       </body>
     </html>

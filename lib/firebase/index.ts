@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { getAnalytics } from "firebase/analytics";
-import { initializeApp } from "firebase/app";
+import { getApp, getApps, initializeApp } from "firebase/app";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -12,6 +12,12 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-export const analytics = getAnalytics(app);
+const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
+
+let analytics: Analytics | undefined;
+
+if (typeof window !== "undefined") {
+  analytics = getAnalytics(app);
+}
+
+export { analytics, app };

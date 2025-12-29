@@ -44,7 +44,7 @@ export function generateMetadata({
       canonical: "/",
     },
     icons: {
-      icon: [{ url: "/favicon.ico", sizes: "32x32" }, { url: "/icon.png" }],
+      icon: [{ url: "/icon.png" }],
       apple: "/apple-touch-icon.png",
     },
     openGraph: {
