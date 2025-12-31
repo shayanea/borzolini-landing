@@ -1,8 +1,5 @@
-import { Android, iOS } from "@/assets/icons";
-
-import { Button } from "@/components/ui/button/button";
+import { WaitlistForm } from "@/components/ui";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -71,27 +68,9 @@ const LeftContent = () => {
         Shorthairs and all beloved pets.
       </motion.p>
 
-      {/* CTA Buttons */}
-      <motion.div
-        className="flex flex-col gap-3 sm:flex-row sm:items-center"
-        variants={itemVariants}
-      >
-        <Button
-          size="lg"
-          variant="primary"
-          className="flex items-center justify-center gap-2"
-        >
-          <Image src={iOS} alt="iOS" width={24} height={24} />
-          Download for iOS
-        </Button>
-        <Button
-          size="lg"
-          variant="outline"
-          className="flex items-center justify-center gap-2"
-        >
-          <Image src={Android} alt="Android" width={24} height={24} />
-          Download for Android
-        </Button>
+      {/* Waitlist Form */}
+      <motion.div variants={itemVariants} className="w-full">
+        <WaitlistForm />
       </motion.div>
     </motion.div>
   );

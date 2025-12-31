@@ -2,16 +2,9 @@
 
 import * as motion from "framer-motion/client";
 
-import {
-  Apple,
-  ArrowRight,
-  Clock,
-  Heart,
-  Play,
-  ShieldCheck,
-} from "lucide-react";
+import { Clock, Heart, ShieldCheck } from "lucide-react";
 
-import { SectionWrapper } from "@/components/ui";
+import { SectionWrapper, WaitlistForm } from "@/components/ui";
 
 export function FinalCTA() {
   return (
@@ -48,31 +41,22 @@ export function FinalCTA() {
           viewport={{ once: true }}
           className="mx-auto mb-10 max-w-2xl text-lg text-slate-400"
         >
-          Download Borzi today and join thousands of pet owners who&apos;ve made
-          caring for their companions simpler.
+          Join thousands of pet owners who are waiting to make caring for their
+          companions simpler.
         </motion.p>
 
-        {/* Download Buttons */}
+        {/* Waitlist Form */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
-          className="mb-12 flex flex-col justify-center gap-4 sm:flex-row"
+          className="mb-12 flex flex-col justify-center sm:flex-row"
         >
-          {/* iOS Download Button */}
-          <button className="group focus-visible:ring-ring inline-flex h-14 items-center justify-center gap-3 rounded-2xl bg-white px-8 text-base font-semibold whitespace-nowrap text-[#17171c] shadow transition-colors hover:bg-slate-100 focus-visible:ring-1 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0">
-            <Apple className="h-5 w-5" />
-            Download for iOS
-            <ArrowRight className="-ml-4 h-4 w-4 opacity-0 transition-all group-hover:ml-0 group-hover:opacity-100" />
-          </button>
-
-          {/* Android Download Button */}
-          <button className="group hover:text-accent-foreground focus-visible:ring-ring inline-flex h-14 items-center justify-center gap-3 rounded-2xl border border-slate-700 bg-transparent px-8 text-base font-semibold whitespace-nowrap text-white shadow-sm transition-colors hover:bg-slate-800 focus-visible:ring-1 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0">
-            <Play className="h-5 w-5" />
-            Download for Android
-            <ArrowRight className="-ml-4 h-4 w-4 opacity-0 transition-all group-hover:ml-0 group-hover:opacity-100" />
-          </button>
+          <WaitlistForm
+            className="mx-auto"
+            placeholder="Enter your email to get early access"
+          />
         </motion.div>
 
         {/* Trust Indicators */}
