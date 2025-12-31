@@ -50,11 +50,14 @@ const LeftContent = () => {
       {/* Main Heading */}
       <motion.div variants={itemVariants}>
         <h1 className="mb-6 text-5xl leading-tight font-bold text-white sm:text-6xl lg:text-6xl">
-          &quot;Is your pet okay right now?&quot;{" "}
+          Proactive AI Pet Health <br />
+          <span className="text-primary-400">Monitoring & Analysis</span>
         </h1>
         <h2 className="from-primary-300 to-primary-600 mb-6 bg-linear-to-r bg-clip-text text-3xl text-transparent">
-          Get AI-powered health insights in seconds — <br />
-          track, monitor, and care for your pet like a pro.
+          Is your pet okay right now? <br />
+          <span className="text-2xl text-gray-300">
+            Get instant health insights in seconds.
+          </span>
         </h2>
       </motion.div>
 
@@ -63,9 +66,9 @@ const LeftContent = () => {
         className="mb-8 max-w-lg text-base text-gray-400"
         variants={itemVariants}
       >
-        Join thousands of pet owners who use Borzi to track weight, monitor
-        health changes, and get AI-powered insights. Trusted by British
-        Shorthair owners and pet lovers worldwide.
+        Join thousands of pet owners who use Borzi to track weight, analyze
+        symptoms, and prevent health issues. The #1 health companion for British
+        Shorthairs and all beloved pets.
       </motion.p>
 
       {/* CTA Buttons */}

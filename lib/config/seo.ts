@@ -27,7 +27,7 @@ export function generateMetadata({
 }): Metadata {
   const metaTitle = title
     ? `${title} | ${seoSiteConfig.name}`
-    : seoSiteConfig.name;
+    : seoSiteConfig.title || seoSiteConfig.name;
   const metaDescription = description || seoSiteConfig.description;
   const metaImage = image || `${seoSiteConfig.url}${seoSiteConfig.ogImage}`;
   const metaKeywords = keywords || [...seoSiteConfig.keywords];
