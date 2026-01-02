@@ -39,6 +39,10 @@ export default function RootLayout({
           content="black-translucent"
         />
         <meta name="format-detection" content="telephone=no" />
+        <meta
+          name="google-site-verification"
+          content="5ylBZpVJ-p5D8bGUNwoXuMe0G4gROd_64NUWH2JQ65g"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
