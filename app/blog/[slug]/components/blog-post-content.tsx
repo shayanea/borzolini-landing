@@ -34,7 +34,7 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
           >
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-sm text-slate-400 transition-colors hover:text-purple-400"
+              className="hover:text-primary-400 inline-flex items-center gap-2 text-sm text-slate-400 transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to Blog
@@ -48,7 +48,7 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
             transition={{ duration: 0.6 }}
             className="mb-12"
           >
-            <span className="mb-4 inline-block rounded-full bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-300">
+            <span className="bg-primary-500/10 text-primary-300 mb-4 inline-block rounded-full px-3 py-1 text-sm font-medium">
               {post.category}
             </span>
 
@@ -84,6 +84,7 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mb-12 overflow-hidden rounded-2xl"
             >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={post.image}
                 alt={post.title}
@@ -238,7 +239,7 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mt-16 rounded-2xl border border-purple-500/30 bg-purple-500/5 p-8 text-center"
+            className="border-primary-500/30 bg-primary-500/5 mt-16 rounded-2xl border p-8 text-center"
           >
             <h3 className="mb-4 text-2xl font-bold text-white">
               Ready to monitor your pet&apos;s health?

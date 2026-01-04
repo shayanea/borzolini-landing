@@ -36,47 +36,47 @@ const features: Feature[] = [
     description:
       "Snap a photo of skin issues, wounds, or unusual symptoms and get instant AI analysis",
     isHighlighted: true,
-    iconBackgroundColor: "purple",
+    iconBackgroundColor: "primary",
   },
   {
     icon: Camera,
     title: "Feces Analysis",
     description: "Photo-based stool analysis to monitor digestive health",
 
-    iconBackgroundColor: "red",
+    iconBackgroundColor: "primary",
   },
   {
     icon: Tracking,
     title: "Weight Tracking",
     description:
       "Monitor your pet's weight trends with beautiful charts and insights",
-    iconBackgroundColor: "green",
+    iconBackgroundColor: "primary",
   },
   {
     icon: HealthScore,
     title: "Training Programs",
     description:
       "Daily exercises and progress tracking to train your pet effectively",
-    iconBackgroundColor: "yellow",
+    iconBackgroundColor: "primary",
   },
   {
     icon: Genetic,
     title: "Breed Encyclopedia",
     description:
       "50+ breeds with detailed health info, care guides, and breed-specific insights",
-    iconBackgroundColor: "blue",
+    iconBackgroundColor: "primary",
   },
   {
     icon: Product,
     title: "Toxicity Checker",
     description: "Search foods and plants to see if they're safe for your pet",
-    iconBackgroundColor: "teal",
+    iconBackgroundColor: "primary",
   },
   {
     icon: Telephone,
     title: "Vet Finder",
     description: "Find nearby veterinary clinics with ratings and contact info",
-    iconBackgroundColor: "pink",
+    iconBackgroundColor: "primary",
   },
   {
     icon: Appointment,
@@ -84,7 +84,7 @@ const features: Feature[] = [
     description:
       "Behavioral modification programs and advanced health analytics",
     isComingSoon: true,
-    iconBackgroundColor: "purple",
+    iconBackgroundColor: "primary",
   },
 ];
 
@@ -114,8 +114,8 @@ export function Features() {
     <SectionWrapper sectionId="features">
       <SectionHeader
         label="Features"
-        title="Everything your pet needs"
-        subtitle="Tools to help you care for your pet"
+        title="Complete Pet Health Toolkit"
+        subtitle="Professional-grade tools to help you care for your pet"
         titleSize="xl"
       />
 

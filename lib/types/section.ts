@@ -7,7 +7,8 @@ export type IconBackgroundColor =
   | "yellow"
   | "blue"
   | "pink"
-  | "teal";
+  | "teal"
+  | "primary";
 
 export interface SectionHeaderProps {
   label?: string;

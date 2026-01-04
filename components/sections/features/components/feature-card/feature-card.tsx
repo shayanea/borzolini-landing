@@ -13,7 +13,7 @@ interface FeatureCardProps {
   linkText?: string;
   isHighlighted?: boolean;
   isComingSoon?: boolean;
-  titleColor?: "white" | "purple";
+  titleColor?: "white" | "primary";
   iconBackgroundColor?: IconBackgroundColor;
 }
 

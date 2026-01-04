@@ -42,6 +42,11 @@ export const ICON_COLOR_MAP: Record<IconBackgroundColor, IconColorConfig> = {
     backgroundColor: "teal",
     gradient: "from-[#00FFFF]/30 to-[#00FFFF]/10",
   },
+  primary: {
+    color: "#d5992a",
+    backgroundColor: "primary",
+    gradient: "from-[#d5992a]/30 to-[#d5992a]/10",
+  },
 };
 
 export function getIconColorConfig(
