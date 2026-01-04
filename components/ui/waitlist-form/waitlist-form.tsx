@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Check, Loader2, Mail } from "lucide-react";
+import { AlertCircle, ArrowRight, Check, Loader2, Mail } from "lucide-react";
 import { useState } from "react";
 
 interface WaitlistFormProps {
@@ -12,21 +12,42 @@ interface WaitlistFormProps {
 
 export function WaitlistForm({
   className = "",
-  variant = "default",
   placeholder = "Enter your email address",
 }: WaitlistFormProps) {
   const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
 
     setStatus("loading");
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setStatus("success");
-    setEmail("");
+    setErrorMessage("");
+
+    try {
+      const response = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to join waitlist");
+      }
+
+      setStatus("success");
+      setEmail("");
+    } catch (error) {
+      setStatus("error");
+      setErrorMessage(
+        error instanceof Error ? error.message : "Something went wrong"
+      );
+    }
   };
 
   if (status === "success") {
@@ -78,10 +99,21 @@ export function WaitlistForm({
           </button>
         </div>
       </div>
-      <p className="mt-3 pl-1 text-sm text-slate-500">
-        Join <span className="text-slate-300">2,000+</span> pet owners waiting
-        for launch.
-      </p>
+      {status === "error" && (
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mt-3 flex items-center gap-2 text-sm text-red-400"
+        >
+          <AlertCircle className="h-4 w-4" />
+          <span>{errorMessage}</span>
+        </motion.div>
+      )}
+      {status !== "error" && (
+        <p className="mt-3 pl-1 text-sm text-slate-500">
+          Be the first to know when we launch.
+        </p>
+      )}
     </form>
   );
 }

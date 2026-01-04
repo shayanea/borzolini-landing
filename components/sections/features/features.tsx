@@ -115,7 +115,7 @@ export function Features() {
       <SectionHeader
         label="Features"
         title="Everything your pet needs"
-        subtitle="A comprehensive toolkit designed for modern pet owners"
+        subtitle="Tools to help you care for your pet"
         titleSize="xl"
       />
 

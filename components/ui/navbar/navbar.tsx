@@ -22,6 +22,7 @@ const navItems = [
   { label: "AI Scanner", href: "#ai-scanner" },
   { label: "Find Vets", href: "#find-vets" },
   { label: "Blog", href: "/blog" },
+  { label: "Roadmap", href: "/roadmap" },
 ];
 
 export const Navbar = ({

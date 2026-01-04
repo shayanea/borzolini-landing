@@ -41,8 +41,7 @@ export function FinalCTA() {
           viewport={{ once: true }}
           className="mx-auto mb-10 max-w-2xl text-lg text-slate-400"
         >
-          Join thousands of pet owners who are waiting to make caring for their
-          companions simpler.
+          Get notified when we launch and start caring for your pet smarter.
         </motion.p>
 
         {/* Waitlist Form */}

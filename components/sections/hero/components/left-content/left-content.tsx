@@ -63,9 +63,8 @@ const LeftContent = () => {
         className="mb-8 max-w-lg text-base text-gray-400"
         variants={itemVariants}
       >
-        Join thousands of pet owners who use Borzi to track weight, analyze
-        symptoms, and prevent health issues. The #1 health companion for British
-        Shorthairs and all beloved pets.
+        Track your pet&apos;s weight, spot symptoms early, and stay on top of
+        their health — all in one app.
       </motion.p>
 
       {/* Waitlist Form */}

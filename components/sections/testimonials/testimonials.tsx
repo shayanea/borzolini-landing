@@ -36,8 +36,8 @@ export function Testimonials(): ReactElement {
   return (
     <SectionWrapper maxWidth="6xl">
       <SectionHeader
-        title="Trusted by pet owners"
-        subtitle="Join thousands who've simplified their pet care journey"
+        title="What pet owners are saying"
+        subtitle="Real stories from people using Borzi"
         titleSize="lg"
       />
       <TestimonialsGrid testimonials={testimonials} />

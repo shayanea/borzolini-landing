@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Borzi",
-  title: "Borzi | AI Pet Health Monitor & Symptom Checker",
+  title: "Borzi | Smart Pet Health Tracker",
   description:
-    "The #1 AI-powered pet health companion. Proactive health monitoring, instant symptom analysis, and weight tracking. Trusted by British Shorthair owners and pet lovers worldwide.",
+    "Monitor your pet's health with AI-powered symptom analysis, weight tracking, and personalized care tips. Built for cat and dog owners who want peace of mind.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://borzi.app",
   emails: {
     general: "hello@borzi.app",
