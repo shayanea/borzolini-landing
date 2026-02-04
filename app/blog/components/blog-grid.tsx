@@ -45,15 +45,15 @@ const blogPosts: BlogPost[] = [
   // 	readTime: "7 min read",
   // 	category: "Nutrition",
   // },
-  // {
-  // 	slug: "ai-health-monitoring-benefits",
-  // 	title: "How AI Health Monitoring Saves Lives",
-  // 	excerpt:
-  // 		"Real stories from pet owners who caught serious health issues early using AI-powered health scanning.",
-  // 	date: "2025-12-06",
-  // 	readTime: "6 min read",
-  // 	category: "Technology",
-  // },
+  {
+    slug: "ai-health-monitoring-benefits",
+    title: "How AI Health Monitoring Saves Lives",
+    excerpt:
+      "Real stories from pet owners who caught serious health issues early using AI. These stories changed how I think about pet care.",
+    date: "2025-12-06",
+    readTime: "12 min read",
+    category: "Technology",
+  },
 ];
 
 export function BlogGrid() {
