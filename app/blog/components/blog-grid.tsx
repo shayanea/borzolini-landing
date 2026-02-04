@@ -53,6 +53,7 @@ const blogPosts: BlogPost[] = [
     date: "2025-12-06",
     readTime: "12 min read",
     category: "Technology",
+    image: "/blog/ai-health-monitoring-hero.webp",
   },
 ];
 

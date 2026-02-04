@@ -459,57 +459,57 @@ Let me share these stories with you.
 
 ---
 
-## Luna's Story: "I Had No Idea She Was Sick"
+## Kiki's Story: "I Had No Idea She Was Sick"
 
-Sarah lives in London. She has a British Shorthair named Luna. Luna is 4 years old with the most beautiful grey fur.
+Marjan lives in London. She has a British Shorthair named Kiki. Kiki is 4 years old with the most beautiful grey fur.
 
-Sarah told me: "Luna looked completely normal. She ate her food. She played with her toys. She slept on my bed every night. I thought everything was perfect."
+Marjan told me: "Kiki looked completely normal. She ate her food. She played with her toys. She slept on my bed every night. I thought everything was perfect."
 
-But Sarah started using Borzi's weekly AI scans. Just simple photos of Luna's eyes and fur.
+But Marjan started using Borzi's weekly AI scans. Just simple photos of Kiki's eyes and fur.
 
-After 3 weeks, Borzi sent her a warning: "We see small changes in Luna's eyes. The clarity is getting worse. Please talk to your vet about kidney function."
+After 3 weeks, Borzi sent her a warning: "We see small changes in Kiki's eyes. The clarity is getting worse. Please talk to your vet about kidney function."
 
-Sarah was confused. "Luna looks fine!" she thought. But she trusted the AI and went to the vet anyway.
+Marjan was confused. "Kiki looks fine!" she thought. But she trusted the AI and went to the vet anyway.
 
 The vet did blood tests. And then the vet called with bad news.
 
-"Luna has early stage kidney disease," the vet said. "But here's the good news - we found it very early. Most cats don't show symptoms until 75% of their kidney is damaged. Luna is only at 20%."
+"Kiki has early stage kidney disease," the vet said. "But here's the good news - we found it very early. Most cats don't show symptoms until 75% of their kidney is damaged. Kiki is only at 20%."
 
-Sarah started crying when she told me this part.
+Marjan started crying when she told me this part.
 
-"The AI found Luna's kidney problem **6 months** before I would have noticed anything wrong. 6 months! By then, it would be too late. Luna would be dying."
+"The AI found Kiki's kidney problem **6 months** before I would have noticed anything wrong. 6 months! By then, it would be too late. Kiki would be dying."
 
-Now Luna takes special medicine. She eats kidney-friendly food. And she's doing great - her numbers are getting better, not worse.
+Now Kiki takes special medicine. She eats kidney-friendly food. And she's doing great - her numbers are getting better, not worse.
 
-Sarah said something that I will never forget: "Borzi didn't just find a disease. Borzi gave me more years with Luna. How do you put a price on that?"
+Marjan said something that I will never forget: "Borzi didn't just find a disease. Borzi gave me more years with Kiki. How do you put a price on that?"
 
-I don't know, Sarah. I don't think you can.
+I don't know, Marjan. I don't think you can.
 
 ---
 
-## Oliver's Scary Night: 11 PM Emergency
+## Tyson's Scary Night: 11 PM Emergency
 
 This story still gives me chills.
 
-James lives in Manchester with his cat Oliver. Oliver is a curious orange tabby who loves to explore everything.
+Manouch lives in Watford with his cat Tyson. Tyson is a curious orange tabby who loves to explore everything.
 
-One night at 11 PM, James saw Oliver eating something. He looked closer. It was a lily flower from a bouquet on the table.
+One night at 11 PM, Manouch saw Tyson eating something. He looked closer. It was a lily flower from a bouquet on the table.
 
-James didn't know this, but lilies are **extremely poisonous** for cats. Even a small bite can destroy their kidneys. Many cats die from this.
+Manouch didn't know this, but lilies are **extremely poisonous** for cats. Even a small bite can destroy their kidneys. Many cats die from this.
 
-James opened Borzi and did an emergency scan. He took photos of Oliver and typed what happened.
+Manouch opened Borzi and did an emergency scan. He took photos of Tyson and typed what happened.
 
 The AI response came in 30 seconds:
 
 **"⚠️ URGENT: LILY POISONING IS LIFE-THREATENING FOR CATS. RUSH TO EMERGENCY VET IMMEDIATELY. EVERY MINUTE MATTERS."**
 
-James told me: "My heart stopped. I didn't know lilies were dangerous. I had no idea. If I waited until morning, Oliver would be dead."
+Manouch told me: "My heart stopped. I didn't know lilies were dangerous. I had no idea. If I waited until morning, Tyson would be dead."
 
-Borzi connected James to an emergency vet through video call in 2 minutes. The vet told him exactly what to do while he drove to the animal hospital.
+Borzi connected Manouch to an emergency vet through video call in 2 minutes. The vet told him exactly what to do while he drove to the animal hospital.
 
-Oliver spent 3 days at the hospital getting treatment. It was expensive and scary. But Oliver survived.
+Tyson spent 3 days at the hospital getting treatment. It was expensive and scary. But Tyson survived.
 
-James sent me a photo of Oliver sleeping on his lap. He wrote: "This cat is only alive because your app told me to go to the vet at 11 PM. The $29 video call saved me a $2,000 ER visit and, more importantly, it saved Oliver's life."
+Manouch sent me a photo of Tyson sleeping on his lap. He wrote: "This cat is only alive because your app told me to go to the vet at 11 PM. The $29 video call saved me a $2,000 ER visit and, more importantly, it saved Tyson's life."
 
 Every time I see cats sitting near lilies in people's photos, I feel scared. So many people don't know. This is why we need AI to help us - because we can't know everything about our pets' health.
 
@@ -543,23 +543,23 @@ Michelle wrote to me: "Do you know what diabetes means for a cat? Insulin inject
 
 This story shows why AI is so important - even when you go to the vet regularly.
 
-Jennifer from Edinburgh takes her cat Milo to the vet every year. She's a responsible cat owner. She does everything right.
+Azhman from Edinburgh takes her cat Milo to the vet every year. She's a responsible cat owner. She does everything right.
 
 During Milo's yearly checkup, the vet said: "Milo looks healthy! Good weight, nice teeth, everything is fine."
 
-But Jennifer was also using Borzi. The AI had noticed something over the past few months: Milo's eyes were getting slightly cloudy. Very slightly - impossible to see without comparing photos over time.
+But Azhman was also using Borzi. The AI had noticed something over the past few months: Milo's eyes were getting slightly cloudy. Very slightly - impossible to see without comparing photos over time.
 
 Borzi suggested: "Eye clarity has decreased 12% over 4 months. This can indicate kidney function changes. Consider asking your vet for blood work."
 
-Jennifer was nervous. The vet just said Milo was fine! But she asked for extra blood tests anyway.
+Azhman was nervous. The vet just said Milo was fine! But she asked for extra blood tests anyway.
 
 The vet called two days later: "I'm so sorry, but Milo's kidney numbers are elevated. It's early chronic kidney disease. I didn't catch it during the physical exam because there were no obvious symptoms yet."
 
-Jennifer told me: "I was angry at first. Why didn't the vet see it? But then I understood - cats hide illness so well. Even vets can miss early signs without blood tests."
+Azhman told me: "I was angry at first. Why didn't the vet see it? But then I understood - cats hide illness so well. Even vets can miss early signs without blood tests."
 
 "The AI saw what the vet couldn't see during a normal checkup. It compared photos over months. It noticed tiny changes. It saved Milo's life."
 
-Now Milo is on treatment. He's doing well. Jennifer says she has maybe 2-3 extra years with him because they caught it early.
+Now Milo is on treatment. He's doing well. Azhman says she has maybe 2-3 extra years with him because they caught it early.
 
 ---
 
@@ -606,7 +606,7 @@ I know some people think: "My cat is young and healthy. I don't need this."
 
 But here's the thing - by the time you think you need it, it might be too late.
 
-The cats in these stories all looked healthy. Sarah thought Luna was fine. Michelle thought Bella was just "fluffy." Jennifer's vet said Milo was perfect.
+The cats in these stories all looked healthy. Marjan thought Kiki was fine. Michelle thought Bella was just "fluffy." Azhman's vet said Milo was perfect.
 
 But they weren't fine. The disease was already there, hiding, growing, getting worse.
 
@@ -628,6 +628,7 @@ It takes 2 minutes. And it might give you years more with your best friend.
     readTime: "12 min read",
     category: "Technology",
     author: "Mostafa Mohaddes",
+    image: "/blog/ai-health-monitoring-hero.webp",
   },
 };
 
