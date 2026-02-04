@@ -50,7 +50,7 @@ const blogPosts: BlogPost[] = [
     title: "How AI Health Monitoring Saves Lives",
     excerpt:
       "Real stories from pet owners who caught serious health issues early using AI. These stories changed how I think about pet care.",
-    date: "2025-12-06",
+    date: "2026-02-05",
     readTime: "12 min read",
     category: "Technology",
     image: "/blog/ai-health-monitoring-hero.webp",

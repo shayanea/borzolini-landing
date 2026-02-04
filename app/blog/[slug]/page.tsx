@@ -624,7 +624,7 @@ It takes 2 minutes. And it might give you years more with your best friend.
 
 *This article shares real stories with permission. Names have been changed for privacy. AI monitoring works together with regular vet care - it doesn't replace professional veterinary advice.*
 		`,
-    date: "2025-12-06",
+    date: "2026-02-05",
     readTime: "12 min read",
     category: "Technology",
     author: "Mostafa Mohaddes",
