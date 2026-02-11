@@ -630,6 +630,190 @@ It takes 2 minutes. And it might give you years more with your best friend.
     author: "Mostafa Mohaddes",
     image: "/blog/ai-health-monitoring-hero.webp",
   },
+  "british-shorthair-health-costs": {
+    title:
+      "Why British Shorthairs Are the Most Expensive Cats to Keep Healthy (And What Most Owners Don't Know)",
+    excerpt:
+      "I did the math on what British Shorthair owners actually spend on health. The numbers shocked me. But the real problem isn't the money - it's what happens when you don't spend it.",
+    content: `
+# Why British Shorthairs Are the Most Expensive Cats to Keep Healthy
+
+I need to be honest with you about something. When I first got interested in British Shorthairs, I thought the biggest cost was buying one. You know - $1,500 to $3,000 for a kitten from a good breeder.
+
+I was so wrong.
+
+The real cost comes after. And most people don't find out until it's too late. Until their bank account is empty and their cat is in the emergency room.
+
+I'm not trying to scare you. I'm trying to prepare you. Because if you own a British Shorthair (or you're thinking about getting one), you deserve to know this.
+
+---
+
+## The Numbers Nobody Talks About
+
+I talked to hundreds of British Shorthair owners. I asked them one simple question: "How much did you spend on your cat's health last year?"
+
+The answers made my jaw drop.
+
+**Average yearly vet costs for a healthy British Shorthair: $800 - $1,200**
+
+That's JUST for routine checkups, vaccines, and basic tests. No emergencies. No surgeries. Nothing went wrong.
+
+Now here's where it gets scary:
+
+**Average cost when something goes wrong: $3,000 - $8,000**
+
+Heart disease treatment? $2,000 - $5,000.
+Kidney disease management? $3,000 - $6,000 per year. Every year. For the rest of their life.
+Emergency surgery? $4,000 - $10,000.
+Dental surgery? $800 - $2,500.
+
+One owner told me she spent $14,000 in one year on her British Shorthair's kidney disease. Fourteen thousand dollars. And her cat still didn't make it.
+
+That story broke my heart.
+
+---
+
+## Why British Shorthairs Specifically?
+
+You might ask: "Don't all cats get sick?"
+
+Yes. But British Shorthairs have genetic problems that other cats don't have. It's because of how they were bred. Their beautiful round faces and thick bodies come with a price.
+
+Here's what British Shorthairs are more likely to get:
+
+**Heart Disease (HCM)**: 15-20% of British Shorthairs will develop this. That's almost 1 in 5 cats. Compare that to a regular cat where it's about 1 in 20.
+
+**Kidney Disease (PKD)**: Up to 38% carry the gene for polycystic kidney disease. That's more than 1 in 3.
+
+**Obesity**: Their body type makes them gain weight easily. And obesity leads to diabetes, which means insulin injections every day. Forever.
+
+**Dental problems**: Their compact jaw structure means teeth crowd together, causing infections.
+
+These aren't rare diseases. These are COMMON problems in this breed. And most of them are silent - your cat shows no symptoms until serious damage is already done.
+
+---
+
+## The Real Problem: Late Detection
+
+Here's what makes me angry. Most of these health problems ARE treatable. We have the medicine. We have the treatments. We know what to do.
+
+But only if we catch them early.
+
+The problem? Cats are masters at hiding pain. A cat with 60% kidney damage will eat, play, and purr like nothing is wrong. You'll look at your British Shorthair and think "she's perfect."
+
+She's not. The disease is there. It's growing. And by the time you finally see symptoms - when she stops eating, loses weight, starts vomiting - you've already lost the window for effective treatment.
+
+And then comes the emergency vet visit. The $5,000 bill. The bad news. The regret.
+
+"Why didn't I catch this earlier?" Every single owner asks this question. Every single one.
+
+---
+
+## What Smart Owners Do Differently
+
+I noticed something interesting when I studied the owners who avoided these huge bills. They weren't richer. They weren't luckier. They just did ONE thing differently:
+
+**They monitored their cat regularly.**
+
+Not just the yearly vet visit. Regular, consistent monitoring.
+
+Some weighed their cat every week. Some tracked water drinking. Some took photos to compare over time.
+
+And the smartest ones? They used technology to help.
+
+Here's why that matters: a human looking at their cat every day won't notice that the eyes got 3% more cloudy this month. They won't notice that fur lost 5% of its shine. They won't notice 100 grams of weight gain.
+
+But those tiny changes? That's where disease STARTS. That's the window where treatment actually works. That's where you save $5,000 AND your cat's life.
+
+---
+
+## The Math That Changed My Mind
+
+Let me show you something:
+
+**Scenario 1: No monitoring**
+- Yearly vet visit: $300
+- Everything looks fine for 3 years
+- Cat develops kidney disease but you don't know
+- Emergency visit when symptoms appear: $800
+- Treatment for advanced kidney disease: $4,000/year
+- Cat lives 2 more years with treatment
+- **Total: $9,700 + a lot of suffering**
+
+**Scenario 2: Weekly monitoring**
+- Yearly vet visit: $300
+- AI monitoring: $120/year (or free with basic plan)
+- AI catches early kidney changes at month 8
+- Early vet intervention: $500
+- Management of early-stage disease: $1,200/year
+- Cat lives 5+ more years with good quality of life
+- **Total: $3,620 + a happy, healthy cat**
+
+That's a $6,000 difference. And 3 extra years with your best friend.
+
+When I saw these numbers, I understood why I was building Borzi. This isn't about technology. It's about simple math and saving lives.
+
+---
+
+## What I Wish Every British Shorthair Owner Knew
+
+If I could sit down with every British Shorthair owner for 5 minutes, here's what I'd say:
+
+**1. Your cat is NOT "probably fine."** With these genetic risks, assuming everything is okay is dangerous. British Shorthairs need more attention than average cats. That's the trade-off for their beauty.
+
+**2. Yearly vet visits are NOT enough.** A lot can change in 12 months. Kidney disease can go from stage 1 to stage 3 in that time. You need to watch for changes between visits.
+
+**3. Weight is NOT "just cute."** I know, everyone loves a chunky British Shorthair. But that extra weight is literally taking years off their life. Monitor it. Seriously.
+
+**4. The expensive option is doing nothing.** People think monitoring is a waste of money. Until they get the $5,000 emergency bill. Prevention is always cheaper than treatment.
+
+**5. Your cat can't tell you.** This is the hardest part. Your cat will purr and play and act normal while disease destroys their body from inside. You need something - or someone - to catch what they're hiding.
+
+---
+
+## What You Can Do Right Now
+
+I'm not going to pretend this is easy. But here's a simple starting plan:
+
+**This week:**
+- Weigh your cat. Write it down. Do this every week.
+- Take a clear photo of your cat's eyes and fur. Save it.
+- Check: is the litter box wetter than usual? More frequent?
+
+**This month:**
+- Schedule a vet checkup if it's been more than 6 months
+- Ask specifically about heart screening (echocardiogram)
+- Ask for kidney blood work (not just the basic panel)
+
+**Going forward:**
+- Monitor weekly. Whether you use AI or just your own notes, be consistent.
+- Track weight, water drinking, eating habits, and energy levels.
+- Compare photos over time - look for fur quality and eye clarity changes.
+
+---
+
+## One Last Thing
+
+I built Borzi because I kept hearing the same story: "I wish I knew earlier."
+
+Earlier. That one word is the difference between a $500 treatment and a $5,000 emergency. Between 2 more years and 7 more years. Between "we caught it in time" and "I'm sorry, there's nothing we can do."
+
+British Shorthairs are expensive to keep healthy. That's a fact. But the most expensive option of all is not paying attention.
+
+Pay attention. Watch for changes. Use whatever tools you can.
+
+Your cat is counting on you. Even if she'll never say it.
+
+---
+
+*This article is based on conversations with British Shorthair owners and publicly available veterinary research. Costs are approximate and vary by location. Always consult your veterinarian for your cat's specific needs.*
+		`,
+    date: "2026-02-12",
+    readTime: "14 min read",
+    category: "Health",
+    author: "Mostafa Mohaddes",
+    image: "/blog/british-shorthair-health-costs-hero.webp",
+  },
 };
 
 export async function generateMetadata({

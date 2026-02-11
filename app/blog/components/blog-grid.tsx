@@ -55,6 +55,17 @@ const blogPosts: BlogPost[] = [
     category: "Technology",
     image: "/blog/ai-health-monitoring-hero.webp",
   },
+  {
+    slug: "british-shorthair-health-costs",
+    title:
+      "Why British Shorthairs Are the Most Expensive Cats to Keep Healthy (And What Most Owners Don't Know)",
+    excerpt:
+      "I did the math on what British Shorthair owners actually spend on health. The numbers shocked me. But the real problem isn't the money - it's what happens when you don't spend it.",
+    date: "2026-02-12",
+    readTime: "14 min read",
+    category: "Health",
+    image: "/blog/british-shorthair-health-costs-hero.webp",
+  },
 ];
 
 export function BlogGrid() {
