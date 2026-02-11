@@ -60,11 +60,11 @@ This is where technology becomes amazing. Borzi's AI looks at:
 
 ### A real story
 
-Sarah from London told me about her cat Luna. She said "Luna looked completely healthy. I didn't see anything wrong." But Borzi's weekly scans showed her eyes were getting cloudy little by little.
+Marjan from London told me about her cat Kiki. She said "Kiki looked completely healthy. I didn't see anything wrong." But Borzi's weekly scans showed her eyes were getting cloudy little by little.
 
-Sarah took Luna to the vet. They found early PKD. They started treatment right away. Now, 2 years later, Luna is doing great!
+Marjan took Kiki to the vet. They found early PKD. They started treatment right away. Now, 2 years later, Kiki is doing great!
 
-Sarah told me "Without AI, I would never know until it was too late. Thank you for saving Luna."
+Marjan told me "Without AI, I would never know until it was too late. Thank you for saving Kiki."
 
 ### What you should do
 
@@ -253,11 +253,11 @@ Early signs are easy to miss:
 
 ### A real story
 
-Jennifer from Edinburgh took her cat Milo to vet for yearly checkup. Vet said "Kidneys are fine!"
+Azhman from Edinburgh took her cat Milo to vet for yearly checkup. Vet said "Kidneys are fine!"
 
-But Borzi's AI saw that Milo's eyes were getting cloudy and he was drinking more water. Jennifer asked vet to do more tests.
+But Borzi's AI saw that Milo's eyes were getting cloudy and he was drinking more water. Azhman asked vet to do more tests.
 
-They found early CKD! Treatment started immediately. Jennifer said "This added years to Milo's life. The regular checkup missed it, but AI didn't."
+They found early CKD! Treatment started immediately. Azhman said "This added years to Milo's life. The regular checkup missed it, but AI didn't."
 
 ### What you should do
 
