@@ -66,6 +66,15 @@ const blogPosts: BlogPost[] = [
     category: "Health",
     image: "/blog/british-shorthair-health-costs-hero.webp",
   },
+  {
+    slug: "i-scanned-my-living-room-with-ai",
+    title: "I Scanned My Living Room With AI. What It Found Scared Me.",
+    excerpt:
+      "I thought my apartment was safe for cats. I was wrong. When I pointed my phone camera at my living room, the AI found 4 things that could seriously hurt a cat.",
+    date: "2026-02-19",
+    readTime: "13 min read",
+    category: "Tips",
+  },
 ];
 
 export function BlogGrid() {

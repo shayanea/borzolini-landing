@@ -814,6 +814,162 @@ Your cat is counting on you. Even if she'll never say it.
     author: "Mostafa Mohaddes",
     image: "/blog/british-shorthair-health-costs-hero.webp",
   },
+  "i-scanned-my-living-room-with-ai": {
+    title: "I Scanned My Living Room With AI. What It Found Scared Me.",
+    excerpt:
+      "I thought my apartment was safe for cats. I was wrong. When I pointed my phone camera at my living room, the AI found 4 things that could seriously hurt a cat. One of them was sitting right on my kitchen counter.",
+    content: `
+# I Scanned My Living Room With AI. What It Found Scared Me.
+
+I have a confession to make. I'm the person building Borzi. I spend every day thinking about pet safety. I read studies about cat health. I talk to vets. I know more about cat dangers than most people.
+
+And even I had dangerous things in my apartment.
+
+Let me tell you what happened. Last month, I was testing a new feature we built for Borzi. It's called Room Scan. The idea is simple: you take a photo of a room in your house, and the AI tells you if there's anything dangerous for your pet.
+
+I pointed my phone at my living room. I wasn't worried. I thought: "I know what's dangerous for cats. My place is fine."
+
+The scan took about 10 seconds. Then the results came up.
+
+4 hazards. In one room.
+
+I just sat there staring at my phone. How did I miss this?
+
+---
+
+## The Lily on My Kitchen Counter
+
+The first thing the AI flagged was a small bouquet of flowers my friend brought last week. There were lilies in it. Beautiful white lilies.
+
+I knew lilies were bad for cats. I already wrote about it in another article. Manouch from Watford almost lost his cat Tyson because of lilies.
+
+But here's the thing: I don't have a cat right now. So when my friend brought flowers, I didn't think twice. I just put them on the counter and forgot about them.
+
+But what if I had a cat? What if a friend brought me flowers and I was busy and didn't check? What if I just assumed "it's just flowers, it's fine"?
+
+That's how most poisoning happens. Not because people are careless. Because life is busy and you can't remember every single thing that's toxic to your pet.
+
+The AI caught it in 2 seconds. I would have walked past those flowers every day without thinking about it.
+
+---
+
+## The Essential Oil Diffuser
+
+This one really surprised me.
+
+I have one of those small essential oil diffusers in my bedroom. Lavender. I use it to sleep better. Everyone uses them. They seem harmless.
+
+But the AI flagged it immediately: "Essential oil diffusers can be toxic to cats. Tea tree, eucalyptus, lavender, peppermint, and citrus oils are particularly dangerous. Cats lack the liver enzymes to process these compounds."
+
+I didn't know that. I honestly didn't know.
+
+I started asking around. Most of my friends who have cats also use essential oil diffusers. None of them knew it was dangerous. Not one.
+
+This is the problem. There are so many things in our homes that are harmful to pets, and we have no idea. Not because we don't care. Because nobody told us.
+
+---
+
+## The Open Window
+
+I live on the third floor. I like fresh air, so I usually keep a window open. No screen. No net. Just open.
+
+The AI said: "Open windows above ground floor are a serious fall risk for cats. Cats do not always land safely from heights above 2 floors. This is the leading cause of urban cat injuries."
+
+I looked it up. There's actually a name for it: High-Rise Syndrome. Vets see cats who fall from windows all the time. Especially in spring and summer when people open their windows.
+
+People think cats always land on their feet. They do, sometimes. But landing on their feet from 3 floors doesn't mean they don't break bones, rupture organs, or die.
+
+A cat sitting on a windowsill sees a bird. Instinct takes over. The cat jumps. Falls three floors. And then you're rushing to the emergency vet at 2 AM.
+
+A simple window screen costs maybe $15. Not having one could cost you your cat's life.
+
+---
+
+## The Cleaning Products Under the Sink
+
+The last thing the AI found was something I never even considered. The cabinet under my kitchen sink was slightly open. Inside: bleach, all-purpose cleaner, dishwasher tablets.
+
+"Cleaning products stored in accessible cabinets are a poisoning risk. Cats are curious and may lick residue from containers or walk through spills. Dishwasher and laundry pods are especially dangerous because their bright colors attract pets."
+
+I always thought: "Cats are smart, they won't eat cleaning products." But that's not how it works. A cat doesn't need to drink bleach to get poisoned. Walking through a small bleach spill and then licking their paws is enough.
+
+And those colorful laundry pods? They look like toys. Seriously. If you were a cat, you'd probably bat one around too.
+
+---
+
+## Why I Built This Feature
+
+After my own room scan, I understood something important. Knowledge isn't enough.
+
+I KNOW about cat safety. I read about it every day. I build an app about it. And I still had 4 hazards in my apartment.
+
+If someone like me can miss this stuff, what about regular pet owners who don't spend their days thinking about cat health?
+
+That's why we built Room Scan. Not because people are stupid or careless. Because there are just too many things to remember. Too many everyday items that seem harmless but aren't.
+
+Here's a quick list of things most people don't know are dangerous for cats:
+
+Lilies. Tulips. Azaleas. Poinsettias during Christmas. Essential oils. Scented candles with certain chemicals. Open toilet lids with cleaning chemicals. String and yarn (sounds crazy, but cats swallow them and need surgery). Hair ties and rubber bands. Tinsel during holidays. Antifreeze in the garage. Certain houseplants like pothos, philodendron, and snake plants.
+
+That's not even a complete list. There are literally hundreds of household items that can hurt your cat.
+
+No human can remember all of that. But AI can check for all of them in 10 seconds with one photo.
+
+---
+
+## What People Tell Me After Their First Scan
+
+I've been reading the feedback from people who tried Room Scan. Some messages really stuck with me.
+
+One person wrote: "I've had cats for 15 years. I thought I knew everything. The scan found a toxic plant I've had in my living room for 3 years. My cat has been sleeping next to it every day."
+
+Another person said: "I just moved to a new apartment and wanted to make sure it was safe before bringing my cat. The scan found 6 things I needed to fix. I fixed them all before my cat even stepped inside."
+
+A new cat owner messaged me: "I was about to bring home my first kitten. I had no idea what to look for. The scan basically gave me a checklist of things to fix. Now I feel confident that my home is safe."
+
+These messages are why I keep building this. Not the technology. Not the AI. The feeling of knowing that someone's cat is safer today because of something we made.
+
+---
+
+## A Room Is Not Static
+
+Here's something people don't think about. Your room changes. You buy new plants. Friends bring flowers. You rearrange furniture. Holidays come with decorations. Seasons change and you open windows.
+
+A room that was safe in January might not be safe in March.
+
+That's why I think scanning should happen regularly. Not just once. Every time you bring something new home. Every time the seasons change. Every time you redecorate.
+
+It takes 10 seconds. Take a photo. Let AI check it. Fix whatever it finds.
+
+---
+
+## What You Can Do Right Now
+
+Look around the room you're sitting in right now. Really look at it. Through the eyes of a curious cat who puts everything in their mouth, climbs everything, and has no idea that the pretty plant on the shelf could kill them.
+
+What do you see?
+
+That's the thing. You probably won't see the dangers. They look normal to you. They're just part of your home. You don't think twice about them.
+
+But your cat will find them. Cats are explorers. They investigate every corner, every shelf, every open cabinet. They knock things over. They chew on leaves. They drink water from places they shouldn't.
+
+Your job is to make sure that when they explore, they don't find something that kills them.
+
+Open Borzi. Take a photo of your room. See what the AI finds. Fix it.
+
+And then do it again next month.
+
+Your home should be the safest place for your cat. Let's make sure it actually is.
+
+---
+
+*This article is based on personal experience and common household pet safety guidelines. For specific concerns about your pet's environment, consult your veterinarian.*
+		`,
+    date: "2026-02-19",
+    readTime: "13 min read",
+    category: "Tips",
+    author: "Mostafa Mohaddes",
+  },
 };
 
 export async function generateMetadata({
