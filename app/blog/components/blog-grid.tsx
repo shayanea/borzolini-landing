@@ -74,6 +74,7 @@ const blogPosts: BlogPost[] = [
     date: "2026-02-19",
     readTime: "13 min read",
     category: "Tips",
+    image: "/blog/i-scanned-my-living-room-with-ai-hero.webp",
   },
 ];
 
@@ -86,20 +87,6 @@ export function BlogGrid() {
             <BlogCard key={post.slug} post={post} index={index} />
           ))}
         </div>
-
-        {/* Coming Soon Message */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-16 text-center"
-        >
-          <p className="text-slate-400">
-            More articles coming soon. Subscribe to our newsletter to stay
-            updated!
-          </p>
-        </motion.div>
       </div>
     </section>
   );

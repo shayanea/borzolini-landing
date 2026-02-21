@@ -969,6 +969,7 @@ Your home should be the safest place for your cat. Let's make sure it actually i
     readTime: "13 min read",
     category: "Tips",
     author: "Mostafa Mohaddes",
+    image: "/blog/i-scanned-my-living-room-with-ai-hero.webp",
   },
 };
 
