@@ -76,6 +76,15 @@ const blogPosts: BlogPost[] = [
     category: "Tips",
     image: "/blog/i-scanned-my-living-room-with-ai-hero.webp",
   },
+  {
+    slug: "wait-you-cant-feed-them-that",
+    title: "Wait, You Can't Feed Them That?",
+    excerpt:
+      "I used to think that because my cat was smart, he wouldn't eat anything bad for him. I was wrong. I almost made a huge mistake that could have cost me everything.",
+    date: "2026-03-22",
+    readTime: "11 min read",
+    category: "Tips",
+  },
 ];
 
 export function BlogGrid() {

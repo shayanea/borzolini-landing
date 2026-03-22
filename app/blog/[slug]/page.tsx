@@ -971,6 +971,126 @@ Your home should be the safest place for your cat. Let's make sure it actually i
     author: "Mostafa Mohaddes",
     image: "/blog/i-scanned-my-living-room-with-ai-hero.webp",
   },
+  "wait-you-cant-feed-them-that": {
+    title: "Wait, You Can't Feed Them That?",
+    excerpt:
+      "I used to think that because my cat was smart, he wouldn't eat anything bad for him. I was wrong. I almost made a huge mistake that could have cost me everything.",
+    content: `
+# Wait, You Can't Feed Them That?
+
+I want to share a story about how I almost killed my cat because of a piece of onion.
+
+It sounds crazy, right? It was just a tiny slice of onion that fell off my cutting board while I was making dinner. I didn't even think about it. I thought: "Oh, he's a cat. He won't eat that. It smells strong."
+
+But my cat is curious. And he likes to play with search and destroy. Before I could pick it up, he batted it around and then - he ate it.
+
+I didn't panic. At first, I laughed. I thought: "He's going to have bad breath."
+
+But then something told me to check the Borzi toxicity checker. I opened the app, typed "onion," and my heart stopped.
+
+"EXTREMELY TOXIC. Onions, garlic, and chives can cause a cat's red blood cells to burst. Even small amounts can lead to life-threatening anemia."
+
+I didn't wait. I took him to the vet immediately.
+
+---
+
+## Why We Don't Know the Dangers
+
+Most of us think we're good pet owners. We love our cats. We buy the expensive food. We take them for checkups.
+
+But we have no idea what's really happening in our kitchens.
+
+We think: "If it's safe for me, it's safe for them." But that's the biggest lie in pet care. A cat's body is not a small human body. Their liver is different. Their blood is different. Their kidneys are different.
+
+Things that are healthy for you can be literally poison for them.
+
+Let me tell you about some of the worst ones that most people miss.
+
+---
+
+## The Silent Killer: Grapes and Raisins
+
+This one is a total mystery to scientists. They don't even know exactly *why* grapes and raisins are toxic. But they know what they do: they cause sudden, total kidney failure.
+
+Some cats can eat a grape and be fine. Others eat one single raisin and die in 48 hours.
+
+Imagine that. One raisin.
+
+I've talked to so many people who used to give their cats "a little piece of grape" as a treat. They had no idea they were playing Russian Roulette with their cat's life.
+
+If you have grapes or raisins in your house, you have to be so careful. One drop on the floor is all it takes.
+
+---
+
+## The Bread Dough Disaster
+
+This is something I only learned last year. If your cat eats raw bread dough (the kind with yeast), it's a double emergency.
+
+First, the dough keeps rising inside the cat's stomach. It expands and can actually block their intestines or even cause the stomach to rupture.
+
+Second, the yeast produces alcohol as it grows. Because a cat is so small, that tiny amount of alcohol can cause alcohol poisoning.
+
+So when you're baking bread, keep the dough covered and far away from inquisitive paws.
+
+---
+
+## The Dairy Myth
+
+We all grew up seeing cartoons of cats drinking milk. We think it's natural.
+
+But the truth is, most adult cats are lactose intolerant. Their bodies stopped producing the enzymes to digest milk when they were kittens.
+
+Giving your cat a bowl of milk isn't a treat. It's giving them a stomach ache, gas, and severe diarrhea. It's making them suffer just because we think it looks cute.
+
+There are special "cat milks" you can buy, but honestly? Fresh water is the best thing you can ever give your cat.
+
+---
+
+## The Xylitol Hidden Everywhere
+
+This is the one that scares me the most. Xylitol is an artificial sweetener. It's in sugar-free gum, some peanut butters, certain toothpastes, and even some "healthy" desserts.
+
+In cats and dogs, it causes a massive, sudden release of insulin. Their blood sugar drops to zero in minutes. They start seizing. Their liver starts failing.
+
+It acts so fast that sometimes people don't even make it to the vet in time.
+
+If you have anything "sugar-free" in your house, look at the ingredients. If you see Xylitol, treat it like a bottle of poison. Keep it locked away.
+
+---
+
+## Why I Built the Toxicity Checker
+
+I built this feature because I'm human. I forget things. I get busy. I get distracted.
+
+When you're cooking dinner and the phone rings and the cat is under your feet, you're not thinking about the chemical composition of an onion. You're just trying to get things done.
+
+You shouldn't have to be a scientist to keep your pet safe.
+
+That's why our toxicity checker is simple. You type the food. You get an answer. Green is okay. Yellow is be careful. Red is an emergency.
+
+I don't want anyone to go through the fear I felt when my cat ate that piece of onion.
+
+---
+
+## What You Should Do Today
+
+If you haven't used the toxicity checker yet, try it tonight. Go into your kitchen and type three things you have on your counter. You might be surprised.
+
+And please, tell your friends. Tell the people who think it's okay to give their cat a piece of chocolate or a grape. These aren't just "bad foods." They are toxins.
+
+Your cat doesn't have a choice. They trust you to feed them. They trust you to keep the floors clear of things that can hurt them.
+
+Let's make sure we're earning that trust every single day.
+
+---
+
+*This article is based on common veterinary knowledge and personal stories. If you think your pet has eaten something toxic, do not wait for symptoms. Call your emergency vet immediately.*
+		`,
+    date: "2026-03-22",
+    readTime: "11 min read",
+    category: "Tips",
+    author: "Mostafa Mohaddes",
+  },
 };
 
 export async function generateMetadata({
