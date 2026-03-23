@@ -16,9 +16,9 @@ interface Step {
 const steps: Step[] = [
   {
     icon: <Camera className="h-8 w-8" fill="var(--color-primary)" />,
-    title: "Scan Your Pet",
+    title: "Scan Your Pet or Environment",
     description:
-      "Take a photo of your pet's skin, eyes, coat, or stool. AI analyzes in seconds.",
+      "Take a photo of your pet's skin, eyes, coat, stool, or even unknown foods and plants. AI analyzes in seconds.",
   },
   {
     icon: <Analyzed className="h-8 w-8" fill="var(--color-primary)" />,

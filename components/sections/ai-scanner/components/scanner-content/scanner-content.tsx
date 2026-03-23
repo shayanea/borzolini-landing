@@ -1,6 +1,5 @@
 import * as motion from "framer-motion/client";
-
-import { Eye, Quality, Stool } from "@/assets/icons";
+import { Eye, Quality, Stool, Warning } from "@/assets/icons";
 
 import type { ReactElement } from "react";
 
@@ -56,6 +55,12 @@ function ScannerFeatureList(): ReactElement {
         icon={<Stool className="h-6 w-6" />}
         title="Stool Analysis"
         description="Blood, parasites, consistency issues"
+      />
+
+      <ScannerFeatureItem
+        icon={<Warning className="h-6 w-6" />}
+        title="Toxicity Scanning"
+        description="Instant safety check for 1,000+ foods and plants"
       />
     </div>
   );

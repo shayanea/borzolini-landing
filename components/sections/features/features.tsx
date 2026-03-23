@@ -68,8 +68,9 @@ const features: Feature[] = [
   },
   {
     icon: Product,
-    title: "Toxicity Checker",
-    description: "Search foods and plants to see if they're safe for your pet",
+    title: "Visual Toxicity Scanner",
+    description:
+      "Snap a photo of any food or plant to instantly check if it's safe for your pet",
     iconBackgroundColor: "primary",
   },
   {

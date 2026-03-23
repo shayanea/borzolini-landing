@@ -33,7 +33,7 @@ export function PricingGrid() {
         badge="Free Forever"
         price="$0"
         features={[
-          "✅ 2 AI health scans/month",
+          "✅ 1 AI health scan/month",
           "✅ Weight tracking",
           "✅ Basic training programs",
           "✅ Breed encyclopedia (50+ breeds)",
@@ -52,6 +52,8 @@ export function PricingGrid() {
         price="$4.99/month"
         features={[
           "✅ Unlimited AI health scans",
+          "✅ Visual Toxicity Scanning (Food & Plants)",
+          "✅ Multi-Pet Support & Profiles",
           "✅ Feces analysis",
           "✅ Advanced weight analytics",
           "✅ Advanced training programs",
