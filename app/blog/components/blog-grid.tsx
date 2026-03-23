@@ -84,6 +84,7 @@ const blogPosts: BlogPost[] = [
     date: "2026-03-22",
     readTime: "11 min read",
     category: "Tips",
+    image: "/blog/wait-you-cant-feed-them-that-hero.webp",
   },
 ];
 

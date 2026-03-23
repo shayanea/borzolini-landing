@@ -1090,6 +1090,7 @@ Let's make sure we're earning that trust every single day.
     readTime: "11 min read",
     category: "Tips",
     author: "Mostafa Mohaddes",
+    image: "/blog/wait-you-cant-feed-them-that-hero.webp",
   },
 };
 
