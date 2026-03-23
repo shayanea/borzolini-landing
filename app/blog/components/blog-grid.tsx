@@ -73,7 +73,7 @@ const blogPosts: BlogPost[] = [
       "I thought my apartment was safe for cats. I was wrong. When I pointed my phone camera at my living room, the AI found 4 things that could seriously hurt a cat.",
     date: "2026-02-19",
     readTime: "13 min read",
-    category: "Tips",
+    category: "Technology",
     image: "/blog/i-scanned-my-living-room-with-ai-hero.webp",
   },
   {
@@ -83,7 +83,7 @@ const blogPosts: BlogPost[] = [
       "I used to think that because my cat was smart, he wouldn't eat anything bad for him. I was wrong. I almost made a huge mistake that could have cost me everything.",
     date: "2026-03-22",
     readTime: "11 min read",
-    category: "Tips",
+    category: "Health",
     image: "/blog/wait-you-cant-feed-them-that-hero.webp",
   },
 ];
