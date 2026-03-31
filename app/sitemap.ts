@@ -37,6 +37,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/5-silent-killers-british-shorthairs`,
+      lastModified: new Date("2025-12-29"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/ai-health-monitoring-benefits`,
+      lastModified: new Date("2026-02-05"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/british-shorthair-health-costs`,
+      lastModified: new Date("2026-02-12"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/i-scanned-my-living-room-with-ai`,
+      lastModified: new Date("2026-02-19"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/wait-you-cant-feed-them-that`,
+      lastModified: new Date("2026-03-22"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/chunky-british-shorthair-weight-risks`,
+      lastModified: new Date("2026-03-31"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/roadmap`,
       lastModified: currentDate,
       changeFrequency: "monthly",
