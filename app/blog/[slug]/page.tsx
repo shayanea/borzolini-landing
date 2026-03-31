@@ -1092,6 +1092,132 @@ Let's make sure we're earning that trust every single day.
     author: "Mostafa Mohaddes",
     image: "/blog/wait-you-cant-feed-them-that-hero.webp",
   },
+  "chunky-british-shorthair-weight-risks": {
+    title: "Your 'Chunky' British Shorthair Isn't Cute. He's Dying.",
+    excerpt:
+      "I used to laugh at 'chonky' cat videos on Instagram. Everyone does. But when I talked to a vet specializing in British Shorthairs, she told me something that made me feel sick with guilt.",
+    content: `
+# Your 'Chunky' British Shorthair Isn't Cute. He's Dying.
+
+I know, I know. You're probably thinking: "Mostafa, you're being too dramatic. He's just a big boy. It's his breed. British Shorthairs are supposed to be round!"
+
+I used to say the exact same thing.
+
+When my friend brought home a 9kg British Shorthair named Boris, I laughed. I called him a "unit." We took photos of his belly. We joked about how he looked like a fluffy pillow. We thought the "chonk" was his personality.
+
+But Boris wasn't happy. He wasn't "chill." He was in pain.
+
+He couldn't jump on the sofa anymore. He stopped grooming his back because he couldn't reach it. He spent 22 hours a day sleeping. Not because he was a "lazy cat," but because every step he took put 50kg of pressure on his tiny joints.
+
+Boris died of heart failure when he was only 6 years old. 
+
+The average lifespan of a British Shorthair is 12 to 15 years. Boris lost half his life because we thought his obesity was "cute."
+
+---
+
+## The Trap of the British Shorthair Body
+
+British Shorthairs are the easiest cats in the world to overfeed. 
+
+Their natural body type is "cobby" — they have broad chests, short legs, and round faces. This makes it very hard for a normal owner to see where "muscular" ends and "obese" begins.
+
+On a Siamese cat, you see every extra gram. On a British Shorthair, the thick fur and heavy bones hide the fat. By the time your cat *looks* fat to you, they are already dangerously overweight.
+
+Vets use a 1-to-9 scale to measure body condition. A "5" is perfect. Most British Shorthairs I see on social media are an "8" or a "9."
+
+They aren't "big-boned." They are morbidly obese.
+
+---
+
+## What Obesity Does to a British Shorthair
+
+Let's stop using cute words like "chonk" and "chunk." Let's use the words vets use.
+
+**Diabetes**: British Shorthairs are already prone to diabetes. Carrying extra weight makes their cells resistant to insulin. If your cat gets diabetes, you'll be giving them injections twice a day for the rest of their life. Every day. No vacations. No breaks.
+
+**Arthritis**: Imagine walking around all day wearing a 20kg backpack. That's what your cat is doing. Their joints wear down. The cartilage disappears. Every time Boris tried to jump, it felt like needles in his hips. That's why he stopped playing.
+
+**Heart Strain (HCM)**: British Shorthairs already have a high risk of heart disease. When they're overweight, the heart has to work 3x harder to pump blood through all that extra fat. Eventually, the heart muscle just gives up.
+
+**Hepatic Lipidosis**: If an overweight cat stops eating for even 2 days (maybe because they're stressed or have a toothache), their liver gets flooded with fat. It's a medical emergency that costs thousands of dollars to treat, and many cats don't survive.
+
+---
+
+## The '5-Second Rib Test'
+
+Don't trust your eyes. Trust your hands.
+
+Go to your cat right now and put your hands on the sides of their chest. Press very lightly.
+
+**If you feel the ribs easily (like the back of your hand)**: Your cat is likely at a healthy weight.
+
+**If you have to press down to find the ribs**: Your cat is overweight.
+
+**If you can't feel the ribs at all, even when pressing**: Your cat is in the danger zone.
+
+Most people who do this test for the first time are shocked. They've been looking at their cat every day and thinking "he's just fluffy." He's not. He's hiding a layer of inflammatory fat that is slowly destroying his organs.
+
+---
+
+## Why 100 Grams Matters
+
+People tell me: "Mostafa, he only gained half a pound. It's nothing."
+
+No. For a 5kg cat, gaining 500 grams (1 lb) is the same as a 70kg human gaining 7kg. 
+
+Think about that. If you suddenly gained 7kg, you'd feel it in your knees. You'd feel it when you climbed stairs. Your clothes wouldn't fit. You'd be worried.
+
+But because our cats are small, we think small numbers don't matter.
+
+This is why we built the weight tracker in Borzi. Not to be "annoying" or to make you feel bad. But because tracking weight is the only way to catch problems before they become heart failure.
+
+If your cat loses 100 grams, it could be the first sign of kidney disease. If they gain 100 grams every month, they're on the path to diabetes. 
+
+You cannot see 100 grams. But the scale doesn't lie.
+
+---
+
+## How to Save Your Cat's Life (The Hard Truth)
+
+If your cat is overweight, you are the only person who can fix it. Your cat can't open the fridge. They can't order pizza. You are the one putting the food in the bowl.
+
+**1. Stop the "Free Feeding"**: Leaving a bowl of dry food out all day is a death sentence for a British Shorthair. They will eat when they're bored. They will eat because it's there. Switch to scheduled meals.
+
+**2. Measure, Don't Guess**: Use a kitchen scale. Not a "cup." A cup is not a measurement. 55 grams of kibble is 55 grams. If you guess, you are probably overfeeding by 20%.
+
+**3. Cut the Treats**: Those "dream" treats and sticks are pure fat and sugar. One "stick" treat for a cat is like you eating a whole chocolate bar. If you want to give a treat, give a tiny piece of plain, boiled chicken.
+
+**4. Play Every Day**: Even 5 minutes of chasing a string. Your cat needs to move. If they won't move, it's probably because their joints hurt. Talk to your vet about joint support.
+
+---
+
+## It's Not About Being 'Mean'
+
+I get messages from people saying I'm mean for telling them their cat is fat. 
+
+"But he looks so happy when I give him treats!"
+
+Is he happy when he can't walk? Is he happy when his heart is failing? Is he happy when he has to go to the vet every week for insulin shots?
+
+Giving your cat too much food isn't love. It's neglect disguised as kindness.
+
+We love these round, beautiful cats. We want them to live forever. But if we keep celebrating "chonkiness," we are literally loving them to death.
+
+Next time you see a "chonky" cat video, don't like it. Don't share it. Because that cat isn't having fun. That cat is suffering in silence.
+
+Let's start celebrating healthy, active, lean cats instead. 
+
+Start tracking. Start measuring. Give your cat the gift of a long life, not a big bowl of food.
+
+---
+
+*This article is based on veterinary guidelines and personal experiences. If your cat is significantly overweight, do not put them on a "crash diet" as this can be dangerous. Always consult your veterinarian to create a safe weight loss plan.*
+		`,
+    date: "2026-03-31",
+    readTime: "12 min read",
+    category: "Health",
+    author: "Mostafa Mohaddes",
+  },
 };
 
 export async function generateMetadata({

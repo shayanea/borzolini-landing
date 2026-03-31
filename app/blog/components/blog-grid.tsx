@@ -86,6 +86,16 @@ const blogPosts: BlogPost[] = [
     category: "Health",
     image: "/blog/wait-you-cant-feed-them-that-hero.webp",
   },
+  {
+    slug: "chunky-british-shorthair-weight-risks",
+    title: "Your 'Chunky' British Shorthair Isn't Cute. He's Dying.",
+    excerpt:
+      "I used to laugh at 'chonky' cat videos on Instagram. Everyone does. But when I talked to a vet specializing in British Shorthairs, she told me something that made me feel sick with guilt.",
+    date: "2026-03-31",
+    readTime: "12 min read",
+    category: "Health",
+    image: "/blog/chunky-british-shorthair-weight-hero.webp",
+  },
 ];
 
 export function BlogGrid() {
