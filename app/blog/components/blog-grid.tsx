@@ -94,7 +94,7 @@ const blogPosts: BlogPost[] = [
     date: "2026-03-31",
     readTime: "12 min read",
     category: "Health",
-    image: "/blog/chunky-british-shorthair-weight-hero.webp",
+    image: "/blog/chunky-british-shorthair-weight-hero.jpg.webp",
   },
 ];
 

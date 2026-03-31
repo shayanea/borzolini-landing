@@ -1217,7 +1217,7 @@ Start tracking. Start measuring. Give your cat the gift of a long life, not a bi
     readTime: "12 min read",
     category: "Health",
     author: "Mostafa Mohaddes",
-    image: "/blog/chunky-british-shorthair-weight-hero.webp",
+    image: "/blog/chunky-british-shorthair-weight-hero.jpg.webp",
   },
 };
 
