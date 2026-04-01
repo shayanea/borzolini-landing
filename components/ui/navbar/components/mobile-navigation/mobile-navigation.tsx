@@ -29,7 +29,7 @@ export const MobileNavigation = ({
   return (
     <nav
       id="mobile-navigation"
-      className="border-t border-gray-800 py-4 md:hidden"
+      className="border-t border-gray-800 py-4 lg:hidden"
       aria-label="Mobile navigation"
     >
       <div className="flex flex-col gap-4">

@@ -46,7 +46,7 @@ const LeftContent = () => {
 
       {/* Main Heading */}
       <motion.div variants={itemVariants}>
-        <h1 className="mb-6 text-5xl leading-tight font-bold text-white sm:text-6xl lg:text-6xl">
+        <h1 className="mb-6 text-4xl leading-tight font-bold text-white sm:text-6xl lg:text-6xl">
           Vet-Grade Health <br />
           <span className="text-primary-400">Insights in Your Pocket</span>
         </h1>
