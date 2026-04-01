@@ -35,8 +35,8 @@ export const Navbar = ({
   return (
     <nav
       className={`fixed top-0 right-0 left-0 z-50 text-white transition-all duration-300 ${
-        isScrolled
-          ? "border-b border-slate-800 bg-[#18181C]/90 backdrop-blur-xl"
+        isScrolled || isOpen
+          ? "border-b border-slate-800 bg-[#18181C]/95 backdrop-blur-xl"
           : "bg-transparent"
       }`}
     >
