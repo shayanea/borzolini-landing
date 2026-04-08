@@ -1219,6 +1219,209 @@ Start tracking. Start measuring. Give your cat the gift of a long life, not a bi
     author: "Mostafa Mohaddes",
     image: "/blog/chunky-british-shorthair-weight-hero.jpg.webp",
   },
+  "i-pointed-my-phone-at-my-cats-dinner": {
+    title: "I Pointed My Phone at My Cat's Dinner. The AI Said Stop.",
+    excerpt:
+      "My friend gave my cat a piece of avocado. I thought it was fine. Then I opened Borzi and pointed the camera at it. What the AI told me made my stomach drop.",
+    content: `
+# I Pointed My Phone at My Cat's Dinner. The AI Said Stop.
+
+Last week, my friend came over for dinner. She brought avocado toast. While we were eating, a small piece of avocado fell on the floor. My cat Misha ran to it immediately.
+
+My friend laughed. "He loves avocado! That's so cute."
+
+I almost let him eat it. I mean, avocado is healthy, right? It's a superfood. Everyone eats it. How bad can it be for a cat?
+
+But something told me to check first. I opened Borzi, pointed my phone camera at the piece of avocado on the floor, and tapped "Scan."
+
+3 seconds later, my phone lit up yellow.
+
+**"⚠️ CAUTION: Avocado contains persin, a toxin that can cause vomiting, diarrhea, and in severe cases, heart damage in cats. The pit, skin, and leaves are most dangerous, but the flesh also contains persin. Remove immediately."**
+
+I grabbed the avocado off the floor so fast that Misha looked confused.
+
+My friend stared at me. "Seriously? Avocado is dangerous?"
+
+Yes. Seriously.
+
+---
+
+## Why I Built the Visual Toxicity Scanner
+
+I've written about food dangers before. We have a toxicity checker in Borzi where you can type a food name and get an answer. It works great.
+
+But here's the problem I kept seeing: people don't always know the name of what their cat is eating.
+
+Your cat knocks over a plant. Is it a peace lily or a spider plant? One will kill them. The other is harmless.
+
+A friend brings a fruit basket. There are 8 different things in it. You don't even recognise some of them. Are they safe?
+
+Your cat finds something on the floor. It's a piece of.. something. From dinner? From the bin? You're not even sure what it is.
+
+You can't type "the thing on my floor" into a search box. But you CAN point your camera at it.
+
+That's why we built the Visual Toxicity Scanner. You don't need to know the name. You don't need to identify anything. You just take a photo, and the AI does the rest.
+
+---
+
+## The Night That Made Me Finish This Feature
+
+I was almost done building the scanner when I got a message from a user named Emma in Bristol. She wrote:
+
+"My kitten ate a leaf from a plant in my garden. I don't know what plant it is. I can't find it online. My vet is closed. I'm panicking. Can your app help?"
+
+At that point, we only had the text search. I told her to describe the plant. She said: "It's green with white flowers. I don't know. There are hundreds of plants that look like this."
+
+She was right. I couldn't help her. I felt terrible.
+
+She ended up driving to the emergency vet at 11 PM. It cost her £300. The plant turned out to be non-toxic. Her kitten was completely fine.
+
+£300 and 3 hours of pure terror because she couldn't identify a plant.
+
+After that, I didn't sleep until the visual scanner was done. Nobody should have to go through that when a 3-second photo scan could have given her the answer immediately.
+
+---
+
+## How It Actually Works
+
+Let me show you how simple it is. Because I know people think AI is complicated. It's not.
+
+**Step 1**: Your cat is near something. Food, plant, anything. You're not sure if it's safe.
+
+**Step 2**: Open Borzi. Tap the Safety Scanner. Point your camera. Take a photo.
+
+**Step 3**: Wait 3 seconds. The AI identifies what it is AND tells you if it's safe for your specific pet.
+
+That last part is important. The scanner doesn't just say "this is an avocado." It says "this is an avocado, and it contains persin which is toxic to your cat Misha, a British Shorthair."
+
+It knows your pet. It knows their species, their breed, their allergies, their medical history. The answer is personalised.
+
+A food that's safe for dogs might kill cats. A plant that's fine for young cats might be dangerous for seniors with kidney disease. The scanner knows the difference.
+
+---
+
+## 7 Things People Scanned That Shocked Them
+
+Since we launched this feature, I've been reading the scan reports. Some of them made my heart race. Here are real things people scanned:
+
+**1. Lilies in a bouquet** — A woman in London scanned flowers her husband brought home. The AI immediately flagged the lilies. "FATAL: Even pollen from lilies can cause complete kidney failure in cats within 24-72 hours." She threw out the entire bouquet.
+
+**2. A grape on the kitchen floor** — A dad scanning his toddler's dropped food. One single grape. "DANGEROUS: Grapes can cause sudden kidney failure in cats. Amount needed to cause toxicity is unknown — even one grape can be lethal."
+
+**3. A pothos plant on a shelf** — "I've had this plant for 5 years. My cat sits next to it every day. The AI told me it contains calcium oxalate crystals that cause mouth burning, drooling, and swallowing problems."
+
+**4. Garlic bread left on the counter** — "My cat always sniffs my garlic bread. I thought it was funny. Turns out garlic is 5x more toxic than onions for cats."
+
+**5. A tulip in the garden** — "I was letting my cat play outside near my flower bed. All parts of tulips are toxic. The bulbs are the worst."
+
+**6. Sugar-free yoghurt** — "I was giving my cat a lick of my yoghurt as a treat. The AI detected xylitol in the ingredients. Xylitol causes liver failure in minutes."
+
+**7. An aloe vera plant** — "Everyone told me aloe vera is safe and natural. The AI said it contains saponins and anthraquinones that cause vomiting, diarrhea, and tremors in cats."
+
+Every single one of these people thought they were safe. They weren't.
+
+---
+
+## Why Googling Isn't Good Enough
+
+I know what you're thinking. "I can just Google it."
+
+You can. But let me tell you why that's not the same.
+
+**Speed**: When your cat is about to eat something, you have seconds. Not minutes. By the time you type "is avocado safe for cats" and scroll through 10 articles with different answers, your cat already ate it.
+
+**Accuracy**: Google gives you articles written for all animals. One article says "avocado is safe for pets." Another says "avocado is toxic." Which one is right? (It depends on the species. Safe for some, toxic for others. Google doesn't know YOUR pet.)
+
+**Identification**: Google can't look at a plant and tell you what it is. You need to know the name first. But the whole point is you DON'T know the name. That's why you're searching.
+
+**Personalisation**: Google doesn't know your cat has kidney disease and that certain foods that are "safe" for healthy cats could worsen kidney function. Our scanner does.
+
+The visual scanner solves all of these problems. Point. Scan. Know.
+
+---
+
+## The Kitchen Counter Test
+
+I want you to try something right now.
+
+Go to your kitchen. Look at the counter. Look at the table. Look at the fruit bowl.
+
+Now imagine you have a curious cat who jumps on every surface and investigates everything with their mouth.
+
+Are you sure everything there is safe?
+
+Let me guess what's probably on your counter right now:
+
+- Onions or garlic (extremely toxic to cats)
+- Grapes or raisins (can cause kidney failure)
+- A bar of chocolate (contains theobromine — toxic)
+- Coffee grounds (caffeine is dangerous)
+- Maybe some flowers (lilies, tulips, and daffodils are all toxic)
+
+These are normal, everyday things. You don't think about them because they're safe for YOU.
+
+But they're not safe for your cat. And your cat doesn't know the difference between a toy and a grape.
+
+---
+
+## One Scan Could Save You £2,000
+
+Here's the money question that always gets people's attention.
+
+An emergency vet visit in the UK costs £300-£800. Treatment for poisoning costs £1,000-£3,000. If your cat needs kidney treatment from grape or lily poisoning, you're looking at £2,000-£5,000.
+
+Pet insurance doesn't always cover poisoning from "preventable" causes. Some policies exclude it.
+
+A Borzi scan takes 3 seconds and is included in your plan. Free users get 1 scan per month. Premium users get unlimited scans.
+
+One scan that takes 3 seconds versus a £2,000 emergency bill and a terrified cat. The math is pretty simple.
+
+---
+
+## What Changed Since Launch
+
+Something beautiful is happening since we launched the visual scanner. People are scanning BEFORE feeding their cats. Not after.
+
+Before, people would give food to their cat and then check later. Or they'd only check when the cat got sick.
+
+Now, I see people scanning the food first. They're holding up a piece of chicken to the camera before putting it in the bowl. They're scanning plants at the nursery before buying them. They're checking treats before opening the package.
+
+This is what prevention looks like. Not reacting to emergencies. Preventing them from ever happening.
+
+One user sent me a message that I will never forget:
+
+"I scan everything now. My friends think I'm crazy. But my cat is alive and healthy, and I never have to wonder 'was that safe?' It takes 3 seconds. Why would I NOT do it?"
+
+Why would you not do it?
+
+---
+
+## Please Try It Tonight
+
+I'm not going to write a long conclusion. I'll just say this:
+
+Your cat trusts you completely. They trust that the food you give them is safe. They trust that the plants in your house won't hurt them. They trust that the things on your kitchen counter won't kill them.
+
+They can't check for themselves. They can't read labels. They can't Google "is this safe for cats."
+
+But you have a phone. And now you have an AI that can tell you in 3 seconds.
+
+Point your camera. Take a photo. Know the answer.
+
+That's it. That's all you have to do.
+
+**Your cat's life might depend on what you scan tonight.**
+
+---
+
+*This article is based on real user experiences and common veterinary toxicology knowledge. If your cat has eaten something you suspect is toxic, don't wait — contact your emergency vet immediately. The visual scanner is a prevention tool, not a substitute for emergency veterinary care.*
+    `,
+    date: "2026-04-08",
+    readTime: "11 min read",
+    category: "Technology",
+    author: "Mostafa Mohaddes",
+    image: "/blog/i-pointed-my-phone-at-my-cats-dinner.webp",
+  },
 };
 
 export async function generateMetadata({

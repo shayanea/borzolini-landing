@@ -96,6 +96,16 @@ const blogPosts: BlogPost[] = [
     category: "Health",
     image: "/blog/chunky-british-shorthair-weight-hero.jpg.webp",
   },
+  {
+    slug: "i-pointed-my-phone-at-my-cats-dinner",
+    title: "I Pointed My Phone at My Cat's Dinner. The AI Said Stop.",
+    excerpt:
+      "My friend gave my cat a piece of avocado. I thought it was fine. Then I opened Borzi and pointed the camera at it. What the AI told me made my stomach drop.",
+    date: "2026-04-08",
+    readTime: "11 min read",
+    category: "Technology",
+    image: "/blog/i-pointed-my-phone-at-my-cats-dinner.webp",
+  },
 ];
 
 export function BlogGrid() {
