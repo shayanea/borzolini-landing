@@ -1422,6 +1422,115 @@ That's it. That's all you have to do.
     author: "Mostafa Mohaddes",
     image: "/blog/i-pointed-my-phone-at-my-cats-dinner.webp",
   },
+  "talking-to-your-vet-about-ai-findings": {
+    title:
+      "How to Tell Your Vet 'The AI Found Something' (Without Them Rolling Their Eyes)",
+    excerpt:
+      "I was terrified to tell my vet I was using an app. I thought he'd see me as just another 'Dr. Google' obsessive. But then I realized: vets don't hate tech, they hate noise. Here is how I finally bridged the gap.",
+    content: `
+# How to Tell Your Vet 'The AI Found Something' (Without Them Rolling Their Eyes)
+
+I’ve been there. 
+
+You’re sitting in the sterile, bright exam room. Your cat is hiding in the corner of their carrier. Your vet is looking at their chart, and you’re holding your phone, staring at a set of data from Borzi that shows a 15% drop in heart rate over the last three weeks.
+
+You want to say something. But you hesitate. 
+
+Why? Because you’ve heard the stories. You’ve seen the memes. You don’t want to be *that* owner — the one who thinks a 3 AM Google search is the same as a six-year medical degree. You’re afraid your vet will roll their eyes, give you a polite "that’s nice," and ignore the data you've carefully collected.
+
+I used to feel that exact same way. But after talking to dozens of vets while building Borzi, I learned a secret: **Vets don't hate technology. They hate noise.**
+
+Here is exactly how I learned to share AI findings so that my vet actually listens.
+
+---
+
+## 1. Stop Leading with the Diagnosis
+
+The fastest way to get a vet to stop listening is to walk in and say: "My AI app says my cat has Chronic Kidney Disease."
+
+When you do that, you aren’t offering data; you’re offering an answer you aren’t qualified to give. You’re unintentionally challenging their expertise.
+
+Instead, lead with the **observation**. 
+
+**Don’t say:** "The AI thinks she’s sick."
+**Do say:** "I’ve been tracking her daily behavior with an AI tool, and it flagged a consistent 12% increase in her water consumption over 14 days. I brought the logs to show you."
+
+See the difference? You aren’t telling them what’s wrong. You’re giving them a precise piece of the puzzle that they couldn’t have seen during a 15-minute appointment.
+
+---
+
+## 2. Vets Love Data, Not Drama
+
+A vet can’t do much with "he seems a bit tired lately." That’s subjective. It could be the weather, it could be age, or it could be nothing.
+
+But a vet *can* work with "his activity levels have dropped from 4 hours of active movement to 1.5 hours according to his monitoring data."
+
+When I talk to my vet, I show him the Borzi dashboards. I show him the weight trends. I don't talk about my "feelings" or my "worries." I talk about the numbers. 
+
+Vets are scientists. When you speak the language of data, you move from being an "anxious owner" to being a "reliable home observer." You are effectively becoming their assistant, providing them with the 24/7 vision they don't have.
+
+---
+
+## 3. The 'Partner' Mindset
+
+The most important shift I made was realizing that Borzi isn't a replacement for my vet. It’s a bridge to them.
+
+I started using this specific phrase in my appointments:
+*"I’ve been using a health monitoring tool to help me be a better observer at home, so I can give you more accurate information."*
+
+That one sentence changed everything. It tells the vet:
+1. I respect your authority.
+2. I am doing the work at home to help *you* succeed.
+3. I am using tech as a tool, not a crystal ball.
+
+Every vet I’ve said this to has lean in. They started asking to see the charts. They started asking how often the data is collected. They stopped rolling their eyes and started collaborating.
+
+---
+
+## 4. Bring the 'Receipts'
+
+Don't just talk about the app. Show it. 
+
+If Borzi flags a stool sample as "Abnormal - Grade 2," I don't just describe it. I show the archived photo and the AI analysis report. 
+
+If the weight tracker shows a slow, steady decline that I would never have noticed with my eyes, I show the graph. 
+
+Vets are constantly dealing with "The White Coat Effect" — animals acting totally normal or super stressed at the clinic, which masks their actual symptoms. When you show them what's happening in the cat's natural environment, you're giving them "the receipts."
+
+---
+
+## 5. Be Ready for Them to Disagree
+
+Sometimes, the AI will flag something that the vet investigates and dismisses. 
+
+**This is a good thing.**
+
+An AI is designed to be highly sensitive. It’s designed to say "Hey, this *might* be a problem" so you don't miss the 1 in 100 chance that it's serious. 
+
+When my vet tells me, "I see the data you found, but after my exam, I’m not worried about that heart rate dip," I don't feel like the app failed. I feel relieved. The app did its job by getting me to the vet, and the vet did their job by giving the final professional verdict.
+
+---
+
+## The Ultimate Goal
+
+At the end of the day, we built Borzi because we want our pets to live longer. Vets want the exact same thing. 
+
+When you approach your vet with high-quality, long-term data and a respectful attitude, you aren't an annoyance. You are the dream client. You are providing the early-warning system that allows them to do their best work.
+
+So next time you see a flag in Borzi, don't be afraid to speak up. Just remember: lead with the data, leave the diagnosis to the expert, and treat the tech as the bridge that brings you both together.
+
+Your vet is the pilot. Borzi is the radar. And when you use them together, your cat is the one who wins.
+
+---
+
+*This article reflects my personal philosophy and experiences in the pet health space. AI tools are meant to augment the human-pet-vet relationship, never to replace professional medical advice. Always default to your veterinarian’s clinical judgment.*
+		`,
+    date: "2026-04-17",
+    readTime: "10 min read",
+    category: "Tips",
+    author: "Mostafa Mohaddes",
+    image: "/blog/how-to-talk-to-your-vet-ai-hero.webp",
+  },
 };
 
 export async function generateMetadata({

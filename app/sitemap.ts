@@ -73,6 +73,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/i-pointed-my-phone-at-my-cats-dinner`,
+      lastModified: new Date("2026-04-08"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/talking-to-your-vet-about-ai-findings`,
+      lastModified: new Date("2026-04-17"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/roadmap`,
       lastModified: currentDate,
       changeFrequency: "monthly",
