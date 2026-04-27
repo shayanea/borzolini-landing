@@ -92,4 +92,15 @@ export const blogPosts: BlogPost[] = [
     category: "Tips",
     image: "/blog/how-to-talk-to-your-vet-ai-hero.webp",
   },
+  {
+    slug: "dog-weight-tracking-90-days",
+    title:
+      "I Tracked My Dog's Weight for 90 Days. Here's the Graph That Made My Vet Go Quiet.",
+    excerpt:
+      "I thought my dog was just 'fluffy'. Then I started tracking his weight every week. The data told a story I wasn't ready to hear, but it's the reason he's still here today.",
+    date: "2026-04-27",
+    readTime: "12 min read",
+    category: "Health",
+    image: "/blog/dog-weight-tracking-hero.webp",
+  },
 ];

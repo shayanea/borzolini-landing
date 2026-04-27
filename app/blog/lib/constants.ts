@@ -1520,4 +1520,114 @@ Your vet is the pilot. Borzi is the radar. And when you use them together, your 
     author: "Mostafa Mohaddes",
     image: "/blog/how-to-talk-to-your-vet-ai-hero.webp",
   },
+  "dog-weight-tracking-90-days": {
+    title:
+      "I Tracked My Dog's Weight for 90 Days. Here's the Graph That Made My Vet Go Quiet.",
+    excerpt:
+      "I thought my dog was just 'fluffy'. Then I started tracking his weight every week. The data told a story I wasn't ready to hear, but it's the reason he's still here today.",
+    content: `
+# I Tracked My Dog's Weight for 90 Days. Here's the Graph That Made My Vet Go Quiet.
+
+I have a confession. I’m a "fluffy" dog enabler.
+
+My Golden Retriever, Barnaby, has always been a bit... substantial. I used to tell people it was just his thick coat. I’d laugh when he waddled. I’d give him "just one more" treat because his eyes were so big.
+
+But 90 days ago, I decided to stop guessing. I started using Borzi's weight tracker. 
+
+What I found didn't just change Barnaby's diet. It saved his life.
+
+---
+
+## The "Slow Creep" of Weight Gain
+
+When you see your dog every day, you don't notice 100 grams. You don't notice 200 grams. It’s like watching grass grow.
+
+But Borzi doesn't have human eyes. It has data.
+
+Every Sunday, I’d weigh Barnaby and snap a photo of his body shape. For the first month, I thought it was a waste of time. "He looks exactly the same," I told myself.
+
+Then I looked at the 30-day graph.
+
+The line wasn't flat. It was climbing. Slowly, steadily, like a hiker going up a hill. Barnaby had gained 1.2kg in just four weeks.
+
+To me, 1.2kg sounded like nothing. To a dog, that's like a human gaining 10kg in a month.
+
+---
+
+## The Graph That Changed Everything
+
+By day 60, the graph triggered a "High Priority" alert in the app.
+
+**"⚠️ ALERT: Barnaby's weight has increased by 8% in 60 days. This rate of gain is strongly correlated with early-stage joint inflammation and metabolic stress. Please consult your veterinarian."**
+
+I was annoyed. "He's fine!" I thought. He still chased balls (slowly). He still ate (very fast).
+
+But I took the data to my vet, Dr. Aris.
+
+I didn't just say "I think he's getting fat." I showed him the Borzi graph. I showed him the body shape comparison from Day 1 to Day 60.
+
+Dr. Aris went quiet. He looked at the screen for a long time.
+
+"This graph is the most important thing you've ever brought me," he said. "Because I only see Barnaby once a year. I see a 'snapshot'. But this graph shows me the *trend*."
+
+---
+
+## What the Data Was Hiding
+
+Dr. Aris did some blood work and a physical exam. Because we caught the trend early, we found something I would have missed for years:
+
+**Early-stage hypothyroidism.**
+
+Barnaby's thyroid wasn't working properly. That's why he was gaining weight even though I hadn't changed his food. Because we had the 90-day data, we could see exactly *when* the metabolism started to slow down.
+
+If I hadn't been tracking, I would have waited until he was lethargic, losing hair, or unable to walk. By then, the damage to his heart and joints would have been permanent.
+
+---
+
+## Why "Guessing" Is Dangerous
+
+Most dog owners (including me, 90 days ago) use the "Eye Test." 
+
+"He looks okay."
+"He's just getting older."
+"It's just winter fur."
+
+The Eye Test is a lie. Your brain wants your dog to be perfect, so it ignores the slow changes.
+
+**Data doesn't have an emotional bias.**
+
+The scale doesn't care how cute your dog is. The graph doesn't care if it's his birthday. It just shows the truth.
+
+---
+
+## 3 Things I Learned in 90 Days
+
+**1. 100 grams is a big deal.** In a dog's world, small numbers have big consequences.
+**2. Trends > Snapshots.** One weigh-in tells you nothing. Twelve weigh-ins tell you a story.
+**3. Your vet is a scientist.** Give them data, not just worries. They can do their job 10x better when they have the "receipts" from your home monitoring.
+
+---
+
+## Barnaby Today
+
+It’s been 90 days. Barnaby is on thyroid medication. We adjusted his food based on Borzi's calorie calculator.
+
+The graph is finally trending down. 
+
+He’s not "waddling" anymore. He’s running. He has energy I haven't seen in three years. He’s not a "fluffy" dog anymore — he’s a healthy one.
+
+**Don't wait for your dog to look "fat." Start tracking today.**
+
+It takes 2 minutes a week. It might give you 2 more years.
+
+---
+
+*Note: I am not a veterinarian. This story is based on my personal experience with Barnaby. Always consult your vet before starting a weight loss plan or medication for your pet.*
+    `,
+    date: "2026-04-27",
+    readTime: "12 min read",
+    category: "Health",
+    author: "Mostafa Mohaddes",
+    image: "/blog/dog-weight-tracking-hero.webp",
+  },
 };
