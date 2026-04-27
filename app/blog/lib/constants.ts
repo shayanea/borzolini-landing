@@ -1628,6 +1628,6 @@ It takes 2 minutes a week. It might give you 2 more years.
     readTime: "12 min read",
     category: "Health",
     author: "Mostafa Mohaddes",
-    image: "/blog/dog-weight-tracking-hero.webp",
+    image: "/blog/dog-weight-tracking-90-days.webp",
   },
 };

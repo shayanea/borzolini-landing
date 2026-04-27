@@ -101,6 +101,6 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-27",
     readTime: "12 min read",
     category: "Health",
-    image: "/blog/dog-weight-tracking-hero.webp",
+    image: "/blog/dog-weight-tracking-90-days.webp",
   },
 ];
